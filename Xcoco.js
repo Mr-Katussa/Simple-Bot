@@ -7433,29 +7433,34 @@ break
 			
 
 case 'tqtt': 
-throw `Thanks to
-LORD BUDDHA
-Xeon (Me)
-My family
-And all friends who helped assemble this sexy script !!!`
+throw `❚❚  SPECIAL THANKS ❚❚
+
+
+👥  Sandaru Nethsara [ Owner ]
+
+👥 Nimesh Oficial
+
+👥 Yuresh 
+
+         And My Besty  💖`
 break
 
 case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
-    XeonBotInc.sendMessage(from, { react: { text: `😅`, key: m.key }}) 
+    XeonBotInc.sendMessage(from, { react: { text: `📜`, key: m.key }}) 
     let buttons = [    
     {buttonId: ` ping `, buttonText: {displayText: 'PING'}, type: 1},
     {buttonId: ` sc `, buttonText: {displayText: 'SCRIPT'}, type: 1},
     {buttonId: ` command `, buttonText: {displayText: 'LIST MENU'}, type: 1}
     ]
     let buttonMessage = {
-    image: { url: `https://assets2.razerzone.com/images/pnx.assets/618c0b65424070a1017a7168ea1b6337/razer-wallpapers-page-hero-mobile.jpg` },
+    image: { url: `data:image/jpeg;base64,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` },
     caption: `❞ *Xcoco Whatsapp Bot*  ❞
 
-📶 *Run Time* : 
+📶 *Run Time* : ${runtime(process.uptime())}
 
-🆓 *Install Bot*  : https://github.com/Mr-Katussa/Xcoco-MD
+🆓 *Install Bot*  : https://github.com/Mr-Katussa
  `,
-    footer: `XCOCO WHATSAPP BOT`,
+    footer: `xcoco`,
     buttons: buttons,
     headerType: 4,
     }
@@ -7468,8 +7473,8 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 								"title": "Initial Features Of Bot 🦄",
 								"rows": [
 									{
-										"title": "Other ☕",
-										"description": "Displays The List Of Other Features",
+										"title": "OTHER ✅",
+										"description": " Other Features",
 										"rowId": `${prefix}othermenu`
 									}
 								]
