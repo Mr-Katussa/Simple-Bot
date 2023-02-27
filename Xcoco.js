@@ -7453,13 +7453,15 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
     {buttonId: ` command `, buttonText: {displayText: 'LIST MENU'}, type: 1}
     ]
     let buttonMessage = {
-    image: { url: `https://assets2.razerzone.com/images/pnx.assets/618c0b65424070a1017a7168ea1b6337/razer-wallpapers-page-hero-mobile.jpg
+    image: { url: `https://assets2.razerzone.com/images/pnx.assets/618c0b65424070a1017a7168ea1b6337/razer-wallpapers-page-hero-mobile.jpg` },
+    caption: `❞ Xcoco Whatsapp Bot  ❞
 
-📶 *Run Time* : ${runtime(process.uptime())}
+📶 Run Time : 
 
-🆓 *Install Bot*  : https://github.com/Mr-Katussa
- `,
-    footer: `xcoco`,
+🆓 Install Bot  : bot GitHub
+
+🈁 Join Support group : link`,
+    footer: `XCOCO WHATSAPP BOT`,
     buttons: buttons,
     headerType: 4,
     }
