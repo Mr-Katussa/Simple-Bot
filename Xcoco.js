@@ -1300,14 +1300,14 @@ let teks = `╚»˙·٠${themeemoji}●♥ Tag All ♥●${themeemoji}٠·˙«�
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔 *UPVOTE* 〕
 │ 
 ├ Total: ${vote[m.chat][1].length}
 │
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔 *DEVOTE* 〕
 │ 
 ├ Total: ${vote[m.chat][2].length}
 │
@@ -1316,8 +1316,8 @@ let teks = `╚»˙·٠${themeemoji}●♥ Tag All ♥●${themeemoji}٠·˙«�
 
 *${prefix}deletevote* - to delete votes`
 let buttonsVote = [
-  {buttonId: `${prefix}upvote`, buttonText: {displayText: '𝚄𝙿𝚅𝙾𝚃𝙴'}, type: 1},
-  {buttonId: `${prefix}devote`, buttonText: {displayText: '𝙳𝙴𝚅𝙾𝚃𝙴'}, type: 1}
+  {buttonId: `${prefix}upvote`, buttonText: {displayText: 'UPVOTE'}, type: 1},
+  {buttonId: `${prefix}devote`, buttonText: {displayText: 'DEVOTE'}, type: 1}
 ]
 
             let buttonMessageVote = {
@@ -7403,7 +7403,7 @@ participant: `0@s.whatsapp.net`,
 message: { 
 "imageMessage": { 
 "mimetype": "image/jpeg", 
-"caption": `🦄ᵈʳᵉᵃᵐ ᵍᵘʸ ˣᵉᵒⁿ⸙xbugbot`, 
+"caption": `XCOCO`, 
 "jpegThumbnail": thumb
 } 
 } 
@@ -7449,13 +7449,13 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
     ]
     let buttonMessage = {
     image: { url: `https://assets2.razerzone.com/images/pnx.assets/618c0b65424070a1017a7168ea1b6337/razer-wallpapers-page-hero-mobile.jpg` },
-    caption: `❞ Xcoco Whatsapp Bot  ❞
+    caption: `❞ *Xcoco Whatsapp Bot*  ❞
 
-📶 Run Time : 
+📶 *Run Time* : 
 
-🆓 Install Bot  : bot GitHub
+🆓 *Install Bot*  : https://github.com/Mr-Katussa/Xcoco-MD`
 
-🈁 Join Support group : link`,
+🈁 Join Support group : `,
     footer: `XCOCO WHATSAPP BOT`,
     buttons: buttons,
     headerType: 4,
@@ -7476,16 +7476,16 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 								]
 							},
 							{
-								"title": "Bot Features ❤️",
+								"title": "Bot Features",
 								"rows": [
 									{
-										"title": "All Menu 🥀",
-										"description": "Displays The List Of All The Features!",
+										"title": "All Menu",
+										"description": "ALL COMMANDS",
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "Owner Menu 💠",
-										"description": "Displays The List Of Owner Features",
+										"title": "Owner Menu",
+										"description": "OWNER COMMANDS",
 										"rowId": `${prefix}ownermenu`
 										},
 									{
@@ -7500,12 +7500,12 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 									},
 									{
 										"title": "Sound Menu 🎵",
-										"description": "Displays The List Of Sound Features",
+										"description": "SOUND COMMANDS",
 										"rowId": `${prefix}soundmenu`
 									},
 									{
 										"title": "Download Menu ↘️",
-										"description": "Displays The List Of Download Features",
+										"description": "DOWNLOAD COMMANDS",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
@@ -7600,7 +7600,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 								"rows": [
 									{
 										"title": "Thanks To ❤️",
-										"description": "Displays The List Of Credit Of The Bot !!",
+										"description": "HELPERS",
 										"rowId": `${prefix}tqtt`
 									}
 								]
@@ -7620,9 +7620,9 @@ break
 var unicorn = await getBuffer(picak+'All Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
