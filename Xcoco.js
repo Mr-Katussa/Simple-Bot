@@ -8294,49 +8294,19 @@ case 'nsfwmenu':{
 var unicorn = await getBuffer(picak+'Nsfw Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╔═══════✪ NSFW 	
-╠${prefix}gifhentai
-╠${prefix}gifblowjob
-╠${prefix}hentaivideo
-╠${prefix}hneko
-╠${prefix}nwaifu
-╠${prefix}animespank
-╠${prefix}trap
-╠${prefix}gasm
-╠${prefix}ahegao
-╠${prefix}ass
-╠${prefix}bdsm
-╠${prefix}blowjob
-╠${prefix}cuckold
-╠${prefix}cum
-╠${prefix}milf
-╠${prefix}eba
-╠${prefix}ero
-╠${prefix}femdom
-╠${prefix}foot
-╠${prefix}gangbang
-╠${prefix}glasses
-╠${prefix}hentai
-╠${prefix}jahy
-╠${prefix}manga
-╠${prefix}masturbation
-╠${prefix}neko-hentai
-╠${prefix}neko-hentai2
-╠${prefix}nsfwloli
-╠${prefix}orgy
-╠${prefix}panties
-╠${prefix}pussy
-╠${prefix}tentacles
-╠${prefix}thights
-╠${prefix}yuri
-╠${prefix}zettai
-╚═════════════✪`,
+    caption: `┌─( *🔞 Menu*)
+│➔.gifhentai
+│➔.hneko
+│➔.nwaifu
+│➔.sexy
+│➔.ass
+└─────────◉`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -8442,175 +8412,23 @@ case 'soundmenu':{
 var unicorn = await getBuffer(picak+'Sound Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╔═══════✪ Sound 	
-╠ ${prefix}sound1
-╠ ${prefix}sound2
-╠ ${prefix}sound3
-╠ ${prefix}sound4
-╠ ${prefix}sound5
-╠ ${prefix}sound6
-╠ ${prefix}sound7
-╠ ${prefix}sound8
-╠ ${prefix}sound9
-╠ ${prefix}sound10
-╠ ${prefix}sound11
-╠ ${prefix}sound12
-╠ ${prefix}sound13
-╠ ${prefix}sound14
-╠ ${prefix}sound15
-╠ ${prefix}sound16
-╠ ${prefix}sound17
-╠ ${prefix}sound18
-╠ ${prefix}sound19
-╠ ${prefix}sound20
-╠ ${prefix}sound21
-╠ ${prefix}sound22
-╠ ${prefix}sound23
-╠ ${prefix}sound24
-╠ ${prefix}sound25
-╠ ${prefix}sound26
-╠ ${prefix}sound27
-╠ ${prefix}sound28
-╠ ${prefix}sound29
-╠ ${prefix}sound30
-╠ ${prefix}sound31
-╠ ${prefix}sound32
-╠ ${prefix}sound33
-╠ ${prefix}sound34
-╠ ${prefix}sound35
-╠ ${prefix}sound36
-╠ ${prefix}sound37
-╠ ${prefix}sound38
-╠ ${prefix}sound39
-╠ ${prefix}sound40
-╠ ${prefix}sound41
-╠ ${prefix}sound42
-╠ ${prefix}sound43
-╠ ${prefix}sound44
-╠ ${prefix}sound45
-╠ ${prefix}sound46
-╠ ${prefix}sound47
-╠ ${prefix}sound48
-╠ ${prefix}sound49
-╠ ${prefix}sound50
-╠ ${prefix}sound51
-╠ ${prefix}sound52
-╠ ${prefix}sound53
-╠ ${prefix}sound54
-╠ ${prefix}sound55
-╠ ${prefix}sound56
-╠ ${prefix}sound57
-╠ ${prefix}sound58
-╠ ${prefix}sound59
-╠ ${prefix}sound60
-╠ ${prefix}sound61
-╠ ${prefix}sound62
-╠ ${prefix}sound63
-╠ ${prefix}sound64
-╠ ${prefix}sound65
-╠ ${prefix}sound66
-╠ ${prefix}sound67
-╠ ${prefix}sound68
-╠ ${prefix}sound69
-╠ ${prefix}sound70
-╠ ${prefix}sound71
-╠ ${prefix}sound72
-╠ ${prefix}sound73
-╠ ${prefix}sound74
-╠ ${prefix}sound75
-╠ ${prefix}sound76
-╠ ${prefix}sound77
-╠ ${prefix}sound78
-╠ ${prefix}sound79
-╠ ${prefix}sound80
-╠ ${prefix}sound81
-╠ ${prefix}sound82
-╠ ${prefix}sound83
-╠ ${prefix}sound84
-╠ ${prefix}sound85
-╠ ${prefix}sound86
-╠ ${prefix}sound87
-╠ ${prefix}sound88
-╠ ${prefix}sound89
-╠ ${prefix}sound90
-╠ ${prefix}sound91
-╠ ${prefix}sound92
-╠ ${prefix}sound93
-╠ ${prefix}sound94
-╠ ${prefix}sound95
-╠ ${prefix}sound96
-╠ ${prefix}sound97
-╠ ${prefix}sound98
-╠ ${prefix}sound99
-╠ ${prefix}sound100
-╠ ${prefix}sound101
-╠ ${prefix}sound102
-╠ ${prefix}sound103
-╠ ${prefix}sound104
-╠ ${prefix}sound105
-╠ ${prefix}sound106
-╠ ${prefix}sound107
-╠ ${prefix}sound108
-╠ ${prefix}sound109
-╠ ${prefix}sound110
-╠ ${prefix}sound111
-╠ ${prefix}sound112
-╠ ${prefix}sound113
-╠ ${prefix}sound114
-╠ ${prefix}sound115
-╠ ${prefix}sound116
-╠ ${prefix}sound117
-╠ ${prefix}sound118
-╠ ${prefix}sound119
-╠ ${prefix}sound120
-╠ ${prefix}sound121
-╠ ${prefix}sound122
-╠ ${prefix}sound123
-╠ ${prefix}sound124
-╠ ${prefix}sound125
-╠ ${prefix}sound126
-╠ ${prefix}sound127
-╠ ${prefix}sound128
-╠ ${prefix}sound129
-╠ ${prefix}sound130
-╠ ${prefix}sound131
-╠ ${prefix}sound132
-╠ ${prefix}sound133
-╠ ${prefix}sound134
-╠ ${prefix}sound135
-╠ ${prefix}sound136
-╠ ${prefix}sound137
-╠ ${prefix}sound138
-╠ ${prefix}sound139
-╠ ${prefix}sound140
-╠ ${prefix}sound141
-╠ ${prefix}sound142
-╠ ${prefix}sound143
-╠ ${prefix}sound144
-╠ ${prefix}sound145
-╠ ${prefix}sound146
-╠ ${prefix}sound147
-╠ ${prefix}sound148
-╠ ${prefix}sound149
-╠ ${prefix}sound150
-╠ ${prefix}sound151
-╠ ${prefix}sound152
-╠ ${prefix}sound153
-╠ ${prefix}sound154
-╠ ${prefix}sound155
-╠ ${prefix}sound156
-╠ ${prefix}sound157
-╠ ${prefix}sound158
-╠ ${prefix}sound159
-╠ ${prefix}sound160
-╠ ${prefix}sound161
-╚═════════════✪`,
+    caption: `┌─( 🎧 *Sound Menu* 🎧)
+│➔.sound1
+│➔.sound2
+│➔.sound3
+│➔.sound4
+│➔.sound5
+│➔.sound6
+│➔.sound7
+│➔.sound8
+│➔.sound9
+└─────────◉`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -8704,28 +8522,10 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╔═══════✪ OTHER 	
-╠ ${prefix}afk
-╠ ${prefix}id
-╠ ${prefix}toqr [link]
-╠ ${prefix}repeat
-╠ ${prefix}readmore [text]
-╠ ${prefix}toviewonce
-╠ ${prefix}fliptext [text]] 
-╠ ${prefix}alive
-╠ ${prefix}script
-╠ ${prefix}ping
-╠ ${prefix}owner
-╠ ${prefix}menu
-╠ ${prefix}delete
-╠ ${prefix}chatinfo
-╠ ${prefix}quoted
-╠ ${prefix}listpc
-╠ ${prefix}listgc
-╠ ${prefix}donate
-╠ ${prefix}request
-╠ ${prefix}report [bug]
-╚═════════════✪`,
+    caption: `
+┌─(♻️ *Other* ♻️)
+│.alive
+└─────────◉`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -8737,44 +8537,18 @@ case 'warmenu':{
 var unicorn = await getBuffer(picak+'War Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╔═══════✪「 BUG MENU 」	
-╠════☾pc attack☽
-╠${prefix}pcbut [number]
-╠${prefix}pcvn [number]
-╠${prefix}pcstick [number]
-╠${prefix}pcfast [number]
-╠${prefix}pcslow [number]
-╠${prefix}pcbunny [number]
-╠${prefix}xcrasher [amount]
-╠${prefix}pccontact [amount]
-╠${prefix}virtex5 [amount]
-╠${prefix}flower [amount]
-╠${prefix}pollbug [amount]
-╠${prefix}catalogbug [amount]
-╠${prefix}trollybug [amount]
-╠${prefix}trollybug2 [amount]
-╠════☾gc attack☽
-╠${prefix}gcslow
-╠${prefix}gcfast
-╠${prefix}gcbunny
-╠${prefix}tagallbug
-╠════☾pc & gc attack☽
-╠${prefix}vnbug [amount]
-╠${prefix}docbug [amount]
-╠${prefix}pcgcslow [number]
-╠${prefix}pcgcfast [number]
-╠${prefix}pcgcbunny [number]
-╠${prefix}textshot
-╠${prefix}docfuck [amount]
-╠${prefix}docsoft [amount]
-╠${prefix}docsoft2 [amount]
-╚═════════════✪`,
+    caption: `┌─( ❌ *Bug Menu*❌)
+│➔.pcbut [ number ]
+│➔.xcrasher
+│➔.virtex5 [ amount ]
+│➔.pollbug [ amount ]
+└─────────◉`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
