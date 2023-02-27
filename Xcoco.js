@@ -7424,11 +7424,11 @@ case 'textshot': {
 //------------------------The End----------------------\\
 			
 case 'ping': 			
-throw `⏰ Run Time :
-🈁 Ram Usage : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
-📶 Speed : 345 MS
-⏺️ Version : V2
-↪️ Run Os : ${os.hostname()}		`
+throw `⏰ *Run Time* :
+🈁 *Ram Usage* : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
+📶 *Speed* : 345 MS
+⏺️ *Version* : V2
+↪️ *Run Os* : ${os.hostname()}		`
 break
 			
 
@@ -7453,9 +7453,8 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 
 📶 *Run Time* : 
 
-🆓 *Install Bot*  : https://github.com/Mr-Katussa/Xcoco-MD`
-
-🈁 Join Support group : `,
+🆓 *Install Bot*  : https://github.com/Mr-Katussa/Xcoco-MD
+ `,
     footer: `XCOCO WHATSAPP BOT`,
     buttons: buttons,
     headerType: 4,
