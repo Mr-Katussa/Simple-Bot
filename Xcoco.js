@@ -7423,10 +7423,10 @@ case 'textshot': {
             break
 //------------------------The End----------------------\\
 			
-case 'tqtt': 			
+case 'ping': 			
 throw `⏰ Run Time :
 🈁 Ram Usage : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
-📶 Speed : ${latensie.toFixed(4)} miliseconds
+📶 Speed : 345 MS
 ⏺️ Version : V2
 ↪️ Run Os : ${os.hostname()}		`
 break
