@@ -6250,7 +6250,7 @@ let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'MENU'}, type: 1}
 ]
 let buttonMessage = {
-image: {url: `https://ibb.co/x6PtLgB`},
+image: {url: `https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg`},
 jpegThumbnail: log0,
 caption: teks,
 footer: `${botname}`,
@@ -6261,8 +6261,8 @@ title:"Xcoco Super Update",
 body: "Click to donate", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
-mediaUrl: 'https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg',
-sourceUrl: "s.id/Contact-Me"
+mediaUrl: 'https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg',
+sourceUrl: "https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg"
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -7438,11 +7438,11 @@ throw `❚❚  SPECIAL THANKS ❚❚
 
 👥  *Sandaru Nethsara* [ Owner ]
 
-👥 *Nimesh Oficial*
+👥 *Nimesh Official*
 
 👥 *Yuresh* 
 
-         _And My Besty_  💖`
+_And My Besty_  💖`
 break
 
 case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
@@ -7512,31 +7512,6 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 										"title": "Download Menu ↘️",
 										"description": "DOWNLOAD COMMANDS",
 										"rowId": `${prefix}downloadmenu`
-									},
-									{
-										"title": "Sticker Menu 🃏",
-										"description": "Displays The List Of Sticker Features",
-										"rowId": `${prefix}stickermenu`
-									},
-									{
-										"title": "Search Menu 🔎",
-										"description": "Displays The List Of Searching Features",
-										"rowId": `${prefix}searchmenu`
-									},
-									{
-										"title": "Random Image Menu 🌆",
-										"description": "Displays The List Of Random Image Features",
-										"rowId": `${prefix}randomimagemenu`
-									},
-									{
-										"title": "Random Video Menu 🌆",
-										"description": "Displays The List Of Random Video Features",
-										"rowId": `${prefix}randomvideomenu`
-									},
-									{
-										"title": "Image Effect Menu 🖼️",
-										"description": "Displays The List Of Image Effect Features",
-										"rowId": `${prefix}imageeffectmenu`
 									},
 										{
 											"title": "Anime Menu 😘",
