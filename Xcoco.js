@@ -7424,7 +7424,7 @@ case 'textshot': {
 //------------------------The End----------------------\\
 			
 case 'ping': 			
-throw `⏰ *Run Time* :
+throw `⏰ *Run Time* : ${runtime(process.uptime())}
 🈁 *Ram Usage* : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 📶 *Speed* : 345 MS
 ⏺️ *Version* : V2
@@ -7436,17 +7436,17 @@ case 'tqtt':
 throw `❚❚  SPECIAL THANKS ❚❚
 
 
-👥  Sandaru Nethsara [ Owner ]
+👥  *Sandaru Nethsara* [ Owner ]
 
-👥 Nimesh Oficial
+👥 *Nimesh Oficial*
 
-👥 Yuresh 
+👥 *Yuresh* 
 
-         And My Besty  💖`
+         _And My Besty_  💖`
 break
 
 case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
-    XeonBotInc.sendMessage(from, { react: { text: `📜`, key: m.key }}) 
+    XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }}) 
     let buttons = [    
     {buttonId: ` ping `, buttonText: {displayText: 'PING'}, type: 1},
     {buttonId: ` sc `, buttonText: {displayText: 'SCRIPT'}, type: 1},
@@ -7456,11 +7456,11 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
     image: { url: `https://assets2.razerzone.com/images/pnx.assets/618c0b65424070a1017a7168ea1b6337/razer-wallpapers-page-hero-mobile.jpg` },
     caption: `❞ Xcoco Whatsapp Bot  ❞
 
-📶 Run Time : 
+📶 *Run Time* : ${runtime(process.uptime())}
 
-🆓 Install Bot  : bot GitHub
+🆓 *Install Bot*  : bot GitHub
 
-🈁 Join Support group : link`,
+🈁 *Join Support group* : s.id/support`,
     footer: `XCOCO WHATSAPP BOT`,
     buttons: buttons,
     headerType: 4,
