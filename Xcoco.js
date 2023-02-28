@@ -6245,7 +6245,7 @@ const reply = `
     }
     break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
-teks = `*「 ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nDont forget to donate 🍜`
+teks = `*XCOCO MD SCRIPT*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nDont forget to donate 🍜`
 let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'MENU'}, type: 1}
 ]
@@ -7445,7 +7445,7 @@ throw `❚❚  SPECIAL THANKS ❚❚
 _And My Besty_  💖`
 break
 
-case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
+case 'alive': {
     XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }}) 
     let buttons = [    
     {buttonId: ` ping `, buttonText: {displayText: 'PING'}, type: 1},
@@ -7469,7 +7469,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
     }
     break  	
 	
-            case 'command': {
+            case 'listmenu': {
 	const sections = [{
 								"title": "Initial Features Of Bot 🦄",
 								"rows": [
@@ -7596,7 +7596,7 @@ const listMessage = {
 const sendMsg = await XeonBotInc.sendMessage(m.chat, listMessage)
 }
 break
-            case 'allmenu':{
+            case 'menu':{
 var unicorn = await getBuffer(picak+'All Menu')
 
 const buttons = [
