@@ -7450,10 +7450,10 @@ case 'alive': {
     let buttons = [    
     {buttonId: ` ping `, buttonText: {displayText: 'PING'}, type: 1},
     {buttonId: ` sc `, buttonText: {displayText: 'SCRIPT'}, type: 1},
-    {buttonId: ` command `, buttonText: {displayText: 'LIST MENU'}, type: 1}
+    {buttonId: ` listmenu `, buttonText: {displayText: 'LIST MENU'}, type: 1}
     ]
     let buttonMessage = {
-    image: { url: `https://assets2.razerzone.com/images/pnx.assets/618c0b65424070a1017a7168ea1b6337/razer-wallpapers-page-hero-mobile.jpg` },
+    image: { url: `https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ft.lk/assets/uploads/image_470579a217.jpg` },
     caption: `❞ Xcoco Whatsapp Bot  ❞
 
 📶 *Run Time* : ${runtime(process.uptime())}
