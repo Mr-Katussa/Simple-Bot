@@ -7453,7 +7453,7 @@ case 'alive': {
     {buttonId: ` listmenu `, buttonText: {displayText: 'LIST MENU'}, type: 1}
     ]
     let buttonMessage = {
-    image: { url: `https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ft.lk/assets/uploads/image_470579a217.jpg` },
+    image: { url: `https://telegra.ph/file/7ab43d9d91cb167f9deb0.jpg` },
     caption: `
 ┏ ┅ ━━━━━━━━━ ┅ 
 
