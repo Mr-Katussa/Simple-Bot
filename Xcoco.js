@@ -1893,7 +1893,7 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
             }
             const sections = [
                 {
-                    title: "Top " + lagusearch.all.length + " songs that matched search result",
+                    title: "Top " + lagusearch.all.length + " *songs that matched search result*",
                     rows: listSerch
                 }
             ]
@@ -1916,22 +1916,22 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
                 let search = await yts(text)
                 let anulay = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
-                    {buttonId: `playmp3 ${anulay.url}`, buttonText: {displayText: '♫ Audio'}, type: 1},
-                    {buttonId: `playmp4 ${anulay.url}`, buttonText: {displayText: '► Video'}, type: 1}
+                    {buttonId: `playmp3 ${anulay.url}`, buttonText: {displayText: 'AUDIO'}, type: 1},
+                    {buttonId: `playmp4 ${anulay.url}`, buttonText: {displayText: 'VIDEO'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anulay.thumbnail },
                     caption: `
-${themeemoji} Title : ${anulay.title}
-${themeemoji} Ext : Search
-${themeemoji} ID : ${anulay.videoId}
-${themeemoji} Duration : ${anulay.timestamp}
-${themeemoji} Viewers : ${anulay.views}
-${themeemoji} Upload At : ${anulay.ago}
-${themeemoji} Author : ${anulay.author.name}
-${themeemoji} Channel : ${anulay.author.url}
-${themeemoji} Description : ${anulay.description}
-${themeemoji} Url : ${anulay.url}`,
+${themeemoji} *Title* : ${anulay.title}
+${themeemoji} *Ext* : Search
+${themeemoji} *ID* : ${anulay.videoId}
+${themeemoji} *Duration* : ${anulay.timestamp}
+${themeemoji} *Viewers* : ${anulay.views}
+${themeemoji} *Upload Date* : ${anulay.ago}
+${themeemoji} *Author* : ${anulay.author.name}
+${themeemoji} *Channel* : ${anulay.author.url}
+${themeemoji} *Description* : ${anulay.description}
+${themeemoji} *Url* : ${anulay.url}`,
                     footer: botname,
                     buttons: buttons,
                     headerType: 4
