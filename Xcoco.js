@@ -7466,13 +7466,13 @@ case 'alive': {
 ┃ 
 ┃ 🈁 *Join Support group* : s.id/support
 ┃ 
-┃ 🔋 *Ram Usage*  : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
+┃ 🔋 *RamUsage*  : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 ┃ 
 ┃ ⚒️ *Version*  : V1
 ┃ 
 ┃ 🧿 *Owner* : Sandaru Nethsara 
 ┃
-┃ 🪀 *Powered By*  @${ini_mark.split('@')[0]}
+┃ 🪀 *Powered By*  @${ownernya.split('@')[0]}
 ┗ ┅ ━━━━━━━━━ ┅ ➔`,
     footer: `xcoco`,
     buttons: buttons,
