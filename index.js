@@ -181,7 +181,8 @@ XeonLft = await getBuffer(ppuser)
 ┃ 
 ┗ ┅ ━━━━━━━━━ ┅ ➔`
 let buttons = [
-{buttonId: `wkwwk`, buttonText: {displayText: 'WELCOME'}, type: 1}
+{buttonId: `wkwwk`, buttonText: {displayText: 'WELCOME'}, type: 1},
+{buttonId: `menu`, buttonText: {displayText: 'Menu'}, type: 1}
 ]
 let buttonMessage = {
 document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
