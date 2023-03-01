@@ -7454,21 +7454,26 @@ case 'alive': {
     ]
     let buttonMessage = {
     image: { url: `https://telegra.ph/file/7ab43d9d91cb167f9deb0.jpg` },
-    caption: `
-┏ ┅ ━━━━━━━━━ ┅ 
+    caption: `┏ ┅ ━━━━━━━━━ ┅ ➔
 
-┇  *Xcoco Whatsapp Bot*
+┇ 《 xᴄᴏᴄᴏ sᴜᴘᴇʀ ᴜᴘᴅᴀᴛᴇ 》
 
-┣ ┅ ━━━━━━━━━ ┅ ━*
+┣ ┅ ━━━━━━━━━ ┅ ➔
 ┃  
-┃ 📶 *Run Time* : ${runtime(process.uptime())}
-
-  🆓 *Install Bot*  : github.com
-
-  🈁 *Join Support group* : s.id/support
+┃ *📶 Run Time* : ${runtime(process.uptime())}
 ┃ 
+┃ 🆓 *Install Bot*  : github.com/Mr-Katussa
+┃ 
+┃ 🈁 *Join Support group* : s.id/support
+┃ 
+┃ 🔋 *Ram Usage*  : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
+┃ 
+┃ ⚒️ *Version*  : V1
+┃ 
+┃ 🧿 *Owner* : Sandaru Nethsara 
 ┃
-┗ ┅ ━━━━━━━━━ ┅ ━`,
+┃ 🪀 *Powered By*  +1551786-8003
+┗ ┅ ━━━━━━━━━ ┅ ➔`,
     footer: `xcoco`,
     buttons: buttons,
     headerType: 4,
