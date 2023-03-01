@@ -7472,7 +7472,7 @@ case 'alive': {
 ┃ 
 ┃ 🧿 *Owner* : Sandaru Nethsara 
 ┃
-┃ 🪀 *Powered By*  +1551786-8003
+┃ 🪀 *Powered By*  @${ini_mark.split('@')[0]}
 ┗ ┅ ━━━━━━━━━ ┅ ➔`,
     footer: `xcoco`,
     buttons: buttons,
