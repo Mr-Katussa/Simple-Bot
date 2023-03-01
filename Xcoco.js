@@ -6247,7 +6247,7 @@ const reply = `
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 teks = `*XCOCO MD SCRIPT*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nDont forget to donate 🍜`
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'MENU'}, type: 1}
+{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg`},
@@ -6258,7 +6258,7 @@ buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title:"Xcoco Super Update",
-body: "Click to donate", 
+body: "Follow Me", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
 mediaUrl: 'https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg',
@@ -7454,14 +7454,22 @@ case 'alive': {
     ]
     let buttonMessage = {
     image: { url: `https://bmkltsly13vb.compat.objectstorage.ap-mumbai-1.oraclecloud.com/cdn.ft.lk/assets/uploads/image_470579a217.jpg` },
-    caption: `❞ Xcoco Whatsapp Bot  ❞
+    caption: `
+┏ ┅ ━━━━━━━━━ ┅ 
 
-📶 *Run Time* : ${runtime(process.uptime())}
+┇  *Xcoco Whatsapp Bot*
 
-🆓 *Install Bot*  : bot GitHub
+┣ ┅ ━━━━━━━━━ ┅ ━*
+┃  
+┃ 📶 *Run Time* : ${runtime(process.uptime())}
 
-🈁 *Join Support group* : s.id/support`,
-    footer: `XCOCO WHATSAPP BOT`,
+  🆓 *Install Bot*  : github.com
+
+  🈁 *Join Support group* : s.id/support
+┃ 
+┃
+┗ ┅ ━━━━━━━━━ ┅ ━`,
+    footer: `xcoco`,
     buttons: buttons,
     headerType: 4,
     }
