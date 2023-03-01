@@ -7537,7 +7537,7 @@ case 'alive': {
 											"title": "Fun Menu 🕺",
 										"description": "Displays The List Of Fun Features",
 										"rowId": `${prefix}funmenu`
-										},
+									         },
 										{
 										"title": "Game Menu 🎮",
 										"description": "Displays The List Of Game Features",
@@ -7587,10 +7587,10 @@ case 'alive': {
 							}
 						]
 const listMessage = {
-  text: "Please choose the menu",
-  footer: `${botname}\n📍YouTube: ${websitex}\n🍜Script: ${botscript}`,
+  text: "*Please choose the menu* 👀",
+  footer: `${botname}\nYOUTUBE: ${websitex}\nSCRIPT: ${botscript}`,
   title: `Hi 👋 ${pushname}`,
-  buttonText: "Menu",
+  buttonText: "XCOCO LIST",
   sections
 }
 const sendMsg = await XeonBotInc.sendMessage(m.chat, listMessage)
