@@ -6248,7 +6248,6 @@ case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case '
 teks = `*XCOCO MD SCRIPT*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nDont forget to donate 🍜`
 let buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1}
-{buttonId: `ping`, buttonText: {displayText: 'PING'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg`},
