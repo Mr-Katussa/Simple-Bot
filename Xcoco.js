@@ -6274,7 +6274,7 @@ body: "Follow Me",
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
 mediaUrl: 'https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg',
-sourceUrl: "wa.me/+15517868003"
+sourceUrl: "https://chat.whatsapp.com/CR5yE82QFfa2PUbbQ6XxwT"
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -7438,8 +7438,8 @@ case 'textshot': {
 case 'ping': 			
 throw `⏰ *Run Time* : ${runtime(process.uptime())}
 🈁 *Ram Usage* : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
-📶 *Speed* : 345 MS
-⏺️ *Version* : V2
+📶 *Speed* : ${speed} ms
+⏺️ *Version* : V1
 ↪️ *Run Os* : ${os.hostname()}		`
     
 break
@@ -7452,10 +7452,11 @@ case 'alive': {
     {buttonId: ` listmenu `, buttonText: {displayText: 'LIST MENU'}, type: 1}
     ]
     let buttonMessage = {
-    image: { url: `https://telegra.ph/file/7ab43d9d91cb167f9deb0.jpg` },
+    image: { url: `
+https://telegra.ph/file/6a094860d5b297db32549.jpg` },
     caption: `┏ ┅ ━━━━━━━━━ ┅ ➔
 
-┇ 《 xᴄᴏᴄᴏ sᴜᴘᴇʀ ᴜᴘᴅᴀᴛᴇ 》
+┇ 《 *xᴄᴏᴄᴏ sᴜᴘᴇʀ ᴜᴘᴅᴀᴛᴇ* 》
 
 ┣ ┅ ━━━━━━━━━ ┅ ➔
 ┃  
@@ -7705,7 +7706,8 @@ const buttonMessage = {
 └─────────◉
 
 ┌─(♻️ *Other* ♻️)
-│.alive
+│➔.alive
+│➔.runtime
 └─────────◉`,
     footer: `${botname}`,
     buttons: buttons,
@@ -8536,12 +8538,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌─( ❌ *Bug Menu*❌)
-│➔.pcbut [ number ]
-│➔.xcrasher
-│➔.virtex5 [ amount ]
-│➔.pollbug [ amount ]
-└─────────◉`,
+    caption: `*ONLY XCOCO OWNER*`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
