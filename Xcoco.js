@@ -6247,7 +6247,8 @@ const reply = `
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 teks = `*XCOCO MD SCRIPT*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nDont forget to donate 🍜`
 let buttons = [
-{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1}
+{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},
+{buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg`},
@@ -7472,7 +7473,7 @@ case 'alive': {
 ┃ 
 ┃ 🧿 *Owner* : Sandaru Nethsara 
 ┃
-┃ 🪀 *Powered By*  @${ownernya.split('@')[0]}
+┃ 🪀 *Powered By*  +15517868003
 ┗ ┅ ━━━━━━━━━ ┅ ➔`,
     footer: `xcoco`,
     buttons: buttons,
