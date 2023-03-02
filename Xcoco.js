@@ -6245,28 +6245,23 @@ const reply = `
     }
     break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
-teks = `┏ ┅ ━━━━━━━━━ ┅ ━*
-*┇          ⫹⫺ DONATE ⫹⫺
-*┣ ┅ ━━━━━━━━━ ┅ ━*
-*┃ HEY BRO 
-*┃*
-*┃ 👉🏻 HERE SOME DATA*
-*┃ IN CASE YOU LIKE TO SUPPORT :𝟹*
-*┃*
-*┃ ⫹⫺ CLUE:* 
-*┃ 646180192175788481*
-*┃ ⫹⫺ BANK: BOC* 
-*┃ ⫹⫺ BENEFICIARY:* 
-*┃ BRUNO NEPHEW* 
-*┃ ⫹⫺ CONCEPT: SUPPORT*  
-*┃ ⫹⫺ PAYPAL: https://www.paypal.me/XCOCO*
-*┃*
-*┃ 👉🏻 CONTACT ME IF*  
-*┃ YOU NEED MORE*
-*┃ INFORMATION AND* 
-*┃ TO THANK YOU<𝟹*
-*┃ wa.me/94764497078*
-*┗ ┅ ━━━━━━━━━ ┅ ━`
+teks = `┏ ┅ ━━━━━━━━━ ┅ ➔
+┇        ⫹⫺ DONATE ⫹⫺
+┣ ┅ ━━━━━━━━━ ┅ ➔
+┃
+┃  ↪️ *Fᴏʟʟᴏᴡ ᴍᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs*
+┃ 
+┃ 📽️ Yᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 📽️
+┃ 
+┃  *youtube.com/@SANDARU-YT*
+┃ 
+┃ 📟 Cᴏɴᴛᴀᴄᴛ Mᴇ ᴏɴ Wʜᴀᴛsᴀᴘᴘ 📟
+┃
+┃   *http://wa.me/15517868003*
+┃
+┃🔰 *ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ xᴄᴏᴄᴏ*🔰
+
+┗ ┅ ━━━━━━━━━ ┅ ━➔`
 let buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},
 {buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1}
