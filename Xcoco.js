@@ -7452,8 +7452,7 @@ case 'alive': {
     {buttonId: ` listmenu `, buttonText: {displayText: 'LIST MENU'}, type: 1}
     ]
     let buttonMessage = {
-    image: { url: `
-https://telegra.ph/file/6a094860d5b297db32549.jpg` },
+    image: { url: `https://telegra.ph/file/e4cb668d4259d6da68f79.jpg` },
     caption: `┏ ┅ ━━━━━━━━━ ┅ ➔
 
 ┇ 《 *xᴄᴏᴄᴏ sᴜᴘᴇʀ ᴜᴘᴅᴀᴛᴇ* 》
@@ -7484,10 +7483,10 @@ https://telegra.ph/file/6a094860d5b297db32549.jpg` },
 	
             case 'listmenu': {
 	const sections = [{
-								"title": "Initial Features Of Bot 🦄",
+								"title": "Here  Xcoco Features",
 								"rows": [
 									{
-										"title": "OTHER ✅",
+										"title": "XCOCO OTHER MENU ",
 										"description": " Other Features",
 										"rowId": `${prefix}othermenu`
 									}
@@ -7497,83 +7496,83 @@ https://telegra.ph/file/6a094860d5b297db32549.jpg` },
 								"title": "Bot Features",
 								"rows": [
 									{
-										"title": "All Menu",
-										"description": "ALL COMMANDS",
+										"title": "XCOCO ALL MENU",
+										"description": "all commands",
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "Owner Menu",
-										"description": "OWNER COMMANDS",
+										"title": "XCOCO OWNER MENU",
+										"description": "owner commands",
 										"rowId": `${prefix}ownermenu`
 										},
 									{
-										"title": "Group Menu ✨",
-										"description": "Displays The List Of Main Features",
+										"title": "XCOCO GROUP MENU",
+										"description": "group commands",
 										"rowId": `${prefix}groupmenu`
 										},
 										{
-										"title": "Maker Menu 🌈",
-										"description": "Displays The List Of Logo Making Features",
+										"title": "XCOCO MARKER MENU",
+										"description": "marker commands",
 										"rowId": `${prefix}makermenu`
 									},
 									{
-										"title": "Sound Menu 🎵",
-										"description": "SOUND COMMANDS",
+										"title": "XCOCO SOUND MENU",
+										"description": "sounds commands",
 										"rowId": `${prefix}soundmenu`
 									},
 									{
-										"title": "Download Menu ↘️",
-										"description": "DOWNLOAD COMMANDS",
+										"title": "XCOCO DOWNLOAD MENU",
+										"description": "download commands",
 										"rowId": `${prefix}downloadmenu`
 									},
 										{
-											"title": "Anime Menu 😘",
-										"description": "Displays The List Of Random Anime Features",
+											"title": "XCOCO ANIME MENU",
+										"description": "anime commands",
 										"rowId": `${prefix}animemenu`
 										},
 										{
-											"title": "Emote Menu 😀",
-										"description": "Displays The List Of Emote Features",
+											"title": "XCOCO EMOTE MENU",
+										"description": "emote commands",
 										"rowId": `${prefix}emotemenu`
 										},
 										{
-										"title": "Anime Sticker Menu ☺️",
-										"description": "Displays The List Of Anime Sticker Features",
+										"title": "XCOCO ANIME STICKER MENU",
+										"description": "anime sticker commands",
 										"rowId": `${prefix}animestickermenu`
 									     },
 									{
-										"title": "Nsfw Menu 🤓",
-										"description": "Displays The List Of Nsfe Features",
+										"title": "XCOC SEX MENU",
+										"description": "sex commands",
 										"rowId": `${prefix}nsfwmenu`
 									     },
 										{
-											"title": "Fun Menu 🕺",
-										"description": "Displays The List Of Fun Features",
+											"title": "XCOCO FUN MENU",
+										"description": "fun commands",
 										"rowId": `${prefix}funmenu`
 									         },
 										{
-										"title": "Game Menu 🎮",
-										"description": "Displays The List Of Game Features",
+										"title": "XCOCO GAMES MENU",
+										"description": "games commands",
 										"rowId": `${prefix}gamemenu`
 									},
 										{
-											"title": "Convert Menu ⚒️",
-										"description": "Displays The List Of Convert Features",
+											"title": "XCOCO CONVERT MENU",
+										"description": "convert commands",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
-											"title": "Database Menu ♻️",
-										"description": "Displays The List Of Database Features",
+											"title": "XCOCO DATABASE MENU",
+										"description": "database menu",
 										"rowId": `${prefix}databasemenu`
 										},
 										{
-										"title": "Other Menu 🐸",
-										"description": "Displays The List Miscellaneous Features",
+										"title": "XCOCO OTHER MENU",
+										"description": "other commands",
 										"rowId": `${prefix}othermenu`
 									     },
 										{
-										"title": "War Menu☣️",
-										"description": "Displays The List Of War Features",
+										"title": "XCOCO BUG MENU",
+										"description": "bug commands",
 										"rowId": `${prefix}warmenu`
 									}
 								]
