@@ -7469,7 +7469,7 @@ case 'alive': {
 ┃ 
 ┃ ⚒️ *Version*  : V1
 ┃
-┃ ⏰ *Today* : ${moment.tz('Asia/Colombo').format('HH:mm:ss')}
+┃ ⏰ *Time* : ${moment.tz('Asia/Colombo').format('HH:mm:ss')}
 ┃ 
 ┃ 🧿 *Owner* : Sandaru Nethsara 
 ┃
@@ -7602,7 +7602,17 @@ case 'alive': {
 						]
 const listMessage = {
   text: "*⫹⫺  xᴄᴏᴄᴏ ʟɪꜱᴛ ᴍᴇɴᴜ ⫹⫺*",
-  footer: `${botname}\nYOUTUBE: ${websitex}\nSCRIPT: ${botscript}`,
+  footer: `
+┏ ┅ ━━━━━━━━━ ┅ 
+
+┇  *Xcoco Whatsapp Bot*
+
+┣ ┅ ━━━━━━━━━ ┅ ━
+┃ 
+┃ please select the menu
+┃ 
+┃
+┗`,
   title: `Hi 👋 ${pushname}`,
   buttonText: "XCOCO LIST",
   sections
