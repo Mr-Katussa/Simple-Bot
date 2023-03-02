@@ -7461,19 +7461,21 @@ case 'alive': {
 ┃  
 ┃ *📶 Run Time* : ${runtime(process.uptime())}
 ┃ 
-┃ 🆓 *Install Bot*  : github.com/Mr-Katussa
+┃ 🆓 *Install Bot*  : https://s.id/1BfIP
 ┃ 
 ┃ 🈁 *Join Support group* : s.id/support
 ┃ 
 ┃ 🔋 *RamUsage*  : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 ┃ 
 ┃ ⚒️ *Version*  : V1
+┃
+┃ ⏰ *Today* : ${moment.tz('Asia/Colombo').format('HH:mm:ss')}
 ┃ 
 ┃ 🧿 *Owner* : Sandaru Nethsara 
 ┃
 ┃ 🪀 *Powered By*  +15517868003
 ┗ ┅ ━━━━━━━━━ ┅ ➔`,
-    footer: `xcoco`,
+    footer: `ᴘʟᴇᴀꜱᴇ ꜱᴇʟꜱᴄᴛ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ`,
     buttons: buttons,
     headerType: 4,
     }
