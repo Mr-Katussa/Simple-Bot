@@ -1921,17 +1921,12 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
                 ]
                 let buttonMessage = {
                     image: { url: anulay.thumbnail },
-                    caption: `
-${themeemoji} *Title* : ${anulay.title}
-${themeemoji} *Ext* : Search
-${themeemoji} *ID* : ${anulay.videoId}
-${themeemoji} *Duration* : ${anulay.timestamp}
-${themeemoji} *Viewers* : ${anulay.views}
-${themeemoji} *Upload Date* : ${anulay.ago}
-${themeemoji} *Author* : ${anulay.author.name}
-${themeemoji} *Channel* : ${anulay.author.url}
-${themeemoji} *Description* : ${anulay.description}
-${themeemoji} *Url* : ${anulay.url}`,
+                    caption: `◉—⌈🔊 YOUTUBE PLAY 🔊⌋—◉\n
+❏ 📌 TITLE: ${title}
+❏ 📆 PUBLISHED: ${publishedTime}
+❏ ⌚ DURATION: ${durationH}
+❏ 👀 VIEWS: ${viewH}
+❏ 📇 DESCRIPTION: ${description}`,
                     footer: botname,
                     buttons: buttons,
                     headerType: 4
