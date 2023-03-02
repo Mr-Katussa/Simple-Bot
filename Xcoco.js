@@ -7431,19 +7431,6 @@ throw `⏰ *Run Time* : ${runtime(process.uptime())}
 ⏺️ *Version* : V2
 ↪️ *Run Os* : ${os.hostname()}		`
 break
-			
-case 'tqtt': 
-throw `❚❚  SPECIAL THANKS ❚❚
-
-
-👥  *Sandaru Nethsara* [ Owner ]
-
-👥 *Nimesh Official*
-
-👥 *Yuresh* 
-
-_And My Besty_  💖`
-break
 
 case 'alive': {
     XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }}) 
