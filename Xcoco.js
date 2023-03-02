@@ -7433,7 +7433,7 @@ throw `⏰ *Run Time* : ${runtime(process.uptime())}
 let buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},
 {buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1}
-break
+
 			
 
 case 'tqtt': 
