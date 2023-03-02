@@ -7441,6 +7441,10 @@ throw `⏰ *Run Time* : ${runtime(process.uptime())}
 📶 *Speed* : 345 MS
 ⏺️ *Version* : V2
 ↪️ *Run Os* : ${os.hostname()}		`
+const buttons = [
+  {buttonId: 'menu', buttonText: {displayText: 'MENU'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
+]
 break
 
 case 'alive': {
