@@ -6241,7 +6241,7 @@ const reply = `
     break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 teks = `┏ ┅ ━━━━━━━━━ ┅ ➔
-┇        ⫹⫺ DONATE ⫹⫺
+┇        ⫹⫺ *DONATE* ⫹⫺
 ┣ ┅ ━━━━━━━━━ ┅ ➔
 ┃
 ┃  ↪️ *Fᴏʟʟᴏᴡ ᴍᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs*
@@ -6274,7 +6274,7 @@ body: "Follow Me",
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
 mediaUrl: 'https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg',
-sourceUrl: "https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg"
+sourceUrl: "wa.me/+15517868003"
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -7441,10 +7441,10 @@ throw `⏰ *Run Time* : ${runtime(process.uptime())}
 📶 *Speed* : 345 MS
 ⏺️ *Version* : V2
 ↪️ *Run Os* : ${os.hostname()}		`
-const buttons = [
+let buttons = [
   {buttonId: 'menu', buttonText: {displayText: 'MENU'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
-]
+  ]
 break
 
 case 'alive': {
