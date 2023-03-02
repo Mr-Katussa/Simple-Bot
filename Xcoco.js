@@ -7599,7 +7599,23 @@ case 'alive': {
 							}
 						]
 const listMessage = {
-  text: "*Please choose the menu* 👀",
+  text: "┏ ┅ ━━━━━━━━━ ┅ ━━━〇
+┇   ⫹⫺  xᴄᴏᴄᴏ ʟɪꜱᴛ ᴍᴇɴᴜ ⫹⫺
+┣ ┅ ━━━━━━━━━ ┅ ━━━〇
+┃
+┃  ʀᴜɴ ᴛɪᴍᴇ : 
+┃ 
+┃  ᴏᴡɴᴇʀ : +15517868003
+┃ 
+┃  ʀᴇᴘᴏ ʟɪɴᴋ : 
+┃ 
+┃ ᴅᴏɴᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ꜰᴏʟʟᴏᴡ ᴍᴇ ᴏɴ
+│ ɢɪᴛʜᴜʙ ᴀɴᴅ ɢɪᴠᴇ ᴀ ⭐️     
+┃
+┃
+┃🔰 ᴘʟᴇᴀꜱᴇ ꜱᴇʟᴇᴄᴛ ᴍᴇɴᴜ🔰
+
+┗ ┅ ━━━━━━━━━ ┅ ━〇",
   footer: `${botname}\nYOUTUBE: ${websitex}\nSCRIPT: ${botscript}`,
   title: `Hi 👋 ${pushname}`,
   buttonText: "XCOCO LIST",
@@ -7618,7 +7634,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `☰ XCOCO COMMANDS ☰
+    caption: `☰ *XCOCO COMMANDS* ☰
     
 ┌─(🎭 *Owner Menu* 🎭)
 │➔.self
