@@ -14,15 +14,15 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['447710173736'] //ur owner number
-global.ownername = "FACEBOOK OFC" //ur owner name
-global.ytname = "YT: SANDARU-YT" //ur yt chanel name
+global.owner = ['15517868003'] //ur owner number
+global.ownername = "WHATSAPP OFC" //ur owner name
+global.ytname = "SANDARU-YT" //ur yt chanel name
 global.socialm = "GitHub: sandaru07" //ur github or insta name
 global.location = "asia, colombo, Aizawl" //ur location
 
 //bot bomdy 
-global.ownernomer = "447710173736" //ur number
-global.premium = ['447710173736'] //ur premium number
+global.ownernomer = "15517868003" //ur number
+global.premium = ['15517868003'] //ur premium number
 global.botname = 'Xcoco Md' //ur bot name
 global.linkz = "https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS" //your theme url which will be displayed on whatsapp
 global.websitex = "https://youtu.be/WiIqCdiDjFo" //ur website to be displayed
@@ -47,8 +47,8 @@ global.mess = {
     group: 'Features Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This feature could be used by bot only',
-    wait: 'In process...',
-    linkm: 'Where is the link?',
+    wait: '*In process...*',
+    linkm: '*Where is the link?*',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
     nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
 }
