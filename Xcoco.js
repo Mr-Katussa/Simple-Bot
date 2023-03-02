@@ -7603,14 +7603,13 @@ case 'alive': {
 const listMessage = {
   text: "*⫹⫺  xᴄᴏᴄᴏ ʟɪꜱᴛ ᴍᴇɴᴜ ⫹⫺*",
   footer: `
-┏ ┅ ━━━━━━━━━ ➔
 
 ┇  *Xcoco Whatsapp Bot*
 
 ┣ ┅ ━━━━━━━━━ ┅ ━
-┃ TIME : ${moment.tz('Asia/Colombo').format('HH:mm:ss')}
+┃ 
 ┃ OWNER : +15517868003
-┃ DATE : ${week}, ${date}
+┃ 
 ┃ VERSION : V1
 ┗┅ ━━━━━━━━━➔`,
   title: `Hi 👋 ${pushname}`,
