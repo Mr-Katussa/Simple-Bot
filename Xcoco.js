@@ -6241,7 +6241,7 @@ const reply = `
     break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 teks = `┏ ┅ ━━━━━━━━━ ┅ ➔
-┇        ⫹⫺ *DONATE* ⫹⫺
+┇        *⫹⫺ DONATE ⫹⫺*
 ┣ ┅ ━━━━━━━━━ ┅ ➔
 ┃
 ┃  ↪️ *Fᴏʟʟᴏᴡ ᴍᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs*
@@ -6259,7 +6259,8 @@ teks = `┏ ┅ ━━━━━━━━━ ┅ ➔
 ┗ ┅ ━━━━━━━━━ ┅ ━➔`
 let buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},
-{buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1},
+{buttonId: `ping`, buttonText: {displayText: 'SYSTEM'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg`},
@@ -7604,15 +7605,15 @@ const listMessage = {
   text: "*⫹⫺  xᴄᴏᴄᴏ ʟɪꜱᴛ ᴍᴇɴᴜ ⫹⫺*",
   footer: `
 
-┇  *Xcoco Whatsapp Bot*
-┃
-┣ ┅ ━━━━━━━━━ ┅ 
+┇ ┅ ━━━━━━━━━ ┅
+┃ BOT : XCOCO-MD
+┣  
 ┃ OWNER : +15517868003
 ┃
 ┃ GITHUB : github.com/Mr-Katussa
 ┃
 ┃ VERSION : V1
-┗┅ ━━━━━━━━━➔`,
+┗┅ ━━━━━━━┅━━➔`,
   title: `Hi 👋 ${pushname}`,
   buttonText: "SELLECT MENU",
   sections
