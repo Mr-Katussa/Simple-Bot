@@ -7439,7 +7439,7 @@ case 'textshot': {
 case 'ping': 			
 throw `⏰ *Run Time* : ${runtime(process.uptime())}
 🈁 *Ram Usage* : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
-📶 *Speed* : ${latensie.toFixed(4)} miliseconds
+📶 *Speed* : 98 ms
 ⏺️ *Version* : V1
 ↪️ *Run Os* : ${os.hostname()}		`
     
@@ -7614,7 +7614,7 @@ const listMessage = {
 ┃
 ┃ VERSION : V1
 ┗┅ ━━━━━━━┅━━➔`,
-  title: `Hi 👋 ${pushname}`,
+  title: `HERE IS`,
   buttonText: "SELLECT MENU",
   sections
 }
@@ -7764,7 +7764,8 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌─(💠 *Group Menu* 💠 )
+    caption: `*GROUP COMMANDS*`,
+    footer: `┌─(💠 *Group Menu* 💠 )
 │➔.grouplink
 │➔.setname
 │➔.resetgrouplink
@@ -7772,7 +7773,6 @@ const buttonMessage = {
 │➔.kick [ tag ]
 │➔.tagall [ text ]
 └─────────◉`,
-    footer: `${botname}`,
     buttons: buttons,
     headerType: 4
 }
