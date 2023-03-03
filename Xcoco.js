@@ -7606,10 +7606,9 @@ const listMessage = {
 
 ┇  *Xcoco Whatsapp Bot*
 
-┣ ┅ ━━━━━━━━━ ┅ ━
-┃ 
+┣ ┅ ━━━━━━━━━ ┅ 
 ┃ OWNER : +15517868003
-┃ 
+┃ GITHUB : github.com/Mr-Katussa
 ┃ VERSION : V1
 ┗┅ ━━━━━━━━━➔`,
   title: `Hi 👋 ${pushname}`,
