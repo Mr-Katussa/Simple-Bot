@@ -7452,7 +7452,7 @@ case 'alive': {
     {buttonId: ` listmenu `, buttonText: {displayText: 'LIST MENU'}, type: 1}
     ]
     let buttonMessage = {
-    image: { url: `https://telegra.ph/file/e4cb668d4259d6da68f79.jpg` },
+    image: { url: `https://telegra.ph/file/1f83eda5030744038c944.jpg` },
     caption: `┏ ┅ ━━━━━━━━━ ┅ ➔
 
 ┇ 《 *xᴄᴏᴄᴏ sᴜᴘᴇʀ ᴜᴘᴅᴀᴛᴇ* 》
@@ -7499,7 +7499,7 @@ case 'alive': {
 								"rows": [
 									{
 										"title": "XCOCO ALL MENU",
-										"description": "all commands",
+										"description": "menu all",
 										"rowId": `${prefix}allmenu`
 									},
 									{
@@ -7605,10 +7605,12 @@ const listMessage = {
   footer: `
 
 ┇  *Xcoco Whatsapp Bot*
-
+┃
 ┣ ┅ ━━━━━━━━━ ┅ 
 ┃ OWNER : +15517868003
+┃
 ┃ GITHUB : github.com/Mr-Katussa
+┃
 ┃ VERSION : V1
 ┗┅ ━━━━━━━━━➔`,
   title: `Hi 👋 ${pushname}`,
