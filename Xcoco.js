@@ -7439,7 +7439,7 @@ case 'textshot': {
 case 'ping': 			
 throw `⏰ *Run Time* : ${runtime(process.uptime())}
 🈁 *Ram Usage* : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
-📶 *Speed* : ${speed} ms
+📶 *Speed* : ${latensie.toFixed(4)} miliseconds
 ⏺️ *Version* : V1
 ↪️ *Run Os* : ${os.hostname()}		`
     
