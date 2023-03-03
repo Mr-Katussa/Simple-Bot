@@ -7913,7 +7913,8 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌─(⬇️ *Download Menu* ⬇️)
+    caption: `*DOWNLOAD MENU*`,
+    footer: `┌─(⬇️ *Download Menu* ⬇️)
 │➔.tiktok [ url ]
 │➔.instargram [ url ]
 │➔.spotify [ url ]
@@ -7925,7 +7926,6 @@ const buttonMessage = {
 │➔.tiktokaudio
 │➔.gitclone [ repo Link ]
 └─────────◉`,
-    footer: `${botname}`,
     buttons: buttons,
     headerType: 4
 }
@@ -8307,14 +8307,14 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌─( *🔞 Menu*)
+    caption: `*SEX MENU*`,
+    footer: `┌─( *🔞 Menu*)
 │➔.gifhentai
 │➔.hneko
 │➔.nwaifu
 │➔.sexy
 │➔.ass
 └─────────◉`,
-    footer: `${botname}`,
     buttons: buttons,
     headerType: 4
 }
@@ -8425,7 +8425,8 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `┌─( 🎧 *Sound Menu* 🎧)
+    caption: `*SOUND MENU*`,
+    footer: `┌─( 🎧 *Sound Menu* 🎧)
 │➔.sound1
 │➔.sound2
 │➔.sound3
@@ -8436,7 +8437,6 @@ const buttonMessage = {
 │➔.sound8
 │➔.sound9
 └─────────◉`,
-    footer: `${botname}`,
     buttons: buttons,
     headerType: 4
 }
