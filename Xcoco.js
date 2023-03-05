@@ -7446,9 +7446,8 @@ case 'textshot': {
 		
 case 'ping':{
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'SCRIPT'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1},
+  {buttonId: 'menu', buttonText: {displayText: 'MENU'}, type: 1}
 ]
 const buttonMessage = {
     image: { url: `https://telegra.ph/file/22350cbe2467cc624c564.jpg
