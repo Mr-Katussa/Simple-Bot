@@ -1923,11 +1923,11 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
                 let buttonMessage = {
                     image: { url: anulay.thumbnail },
                     caption: `◉—⌈🔊 YOUTUBE PLAY 🔊⌋—◉\n
-❏ 📌 TITLE: ${title}
-❏ 📆 PUBLISHED: ${publishedTime}
-❏ ⌚ DURATION: ${durationH}
-❏ 👀 VIEWS: ${viewH}
-❏ 📇 DESCRIPTION: ${description}`,
+❏ 📌 TITLE: ${anulay.title}
+❏ 📆 PUBLISHED: ${anulay.publishedTime}
+❏ ⌚ DURATION: ${anulay.durationH}
+❏ 👀 VIEWS: ${anulay.viewH}
+❏ 📇 DESCRIPTION: ${anulay.description}`,
                     footer: botname,
                     buttons: buttons,
                     headerType: 4
@@ -7451,6 +7451,7 @@ const buttons = [
   {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
 const buttonMessage = {
+    image: { url: `https://telegra.ph/file/1f83eda5030744038c944.jpg` },
     caption: `⏰ *Run Time* : ${runtime(process.uptime())}
 🈁 *Ram Usage* : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 📶 *Speed* : 98 ms
@@ -7527,7 +7528,6 @@ case 'alive': {
 										},
 									{
 										"title": "XCOCO GROUP MENU",
-										"description": "group commands",
 										"rowId": `${prefix}groupmenu`
 										},
 										{
@@ -7566,22 +7566,12 @@ case 'alive': {
 									}
 								]
 							},
-							{
-								"title": "Chat With Fellow Users 🌝",
-								"rows": [
-									{
-										"title": "Anonymous Chat Menu 🏻‍♂️",
-										"description": "Displays The List Of Anonymous Chat Features",
-										"rowId": `${prefix}anonymousmenu`
-									}
-								]
-							},
+							
 							{
 								"title": "Credit ©️",
 								"rows": [
 									{
 										"title": "Thanks To ❤️",
-										"description": "HELPERS",
 										"rowId": `${prefix}tqtt`
 									}
 								]
