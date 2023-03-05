@@ -1922,7 +1922,7 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
                 ]
                 let buttonMessage = {
                     image: { url: anulay.thumbnail },
-                    caption: `◉—⌈🔊 YOUTUBE PLAY 🔊⌋—◉\n
+                    caption: `◉—⌈🔊 *YOUTUBE PLAY* 🔊⌋—◉\n
 ❏ 📌 TITLE: ${anulay.title}
 ❏ 📆 PUBLISHED: ${anulay.publishedTime}
 ❏ ⌚ DURATION: ${anulay.durationH}
@@ -7451,7 +7451,8 @@ const buttons = [
   {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
 const buttonMessage = {
-    image: { url: `https://telegra.ph/file/1f83eda5030744038c944.jpg` },
+    image: { url: `https://telegra.ph/file/22350cbe2467cc624c564.jpg
+` },
     caption: `⏰ *Run Time* : ${runtime(process.uptime())}
 🈁 *Ram Usage* : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 📶 *Speed* : 98 ms
