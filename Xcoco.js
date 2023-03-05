@@ -1910,14 +1910,15 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
             }
             break
         
-    case 'play': case 'ytplay':{
+    case 'play': {
                 if (!text) throw `Example : ${prefix + command} anime whatsapp status`
                 let yts = require("youtube-yts")
                 let search = await yts(text)
-                let anulay = search.videos[Math.floor(Math.random() * search.videos.length)]
+                let anulay = search.videos[0]
                 let buttons = [
                     {buttonId: `playmp3 ${anulay.url}`, buttonText: {displayText: 'AUDIO'}, type: 1},
-                    {buttonId: `playmp4 ${anulay.url}`, buttonText: {displayText: 'VIDEO'}, type: 1}
+                    {buttonId: `playmp4 ${anulay.url}`, buttonText: {displayText: 'VIDEO'}, type: 1},
+		    {buttonId: `ytdoc ${anulay.url}`, buttonText: {displayText: 'DOCUMENT'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anulay.thumbnail },
@@ -2001,6 +2002,12 @@ await XeonBotInc.sendMessage(m.chat,{
 },{quoted:m})
 await fs.unlinkSync(audio.path)
 break
+			
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('z\'y\':{5(!x)9 4(i.w)5(!A(e[0])&&!e[0].B(\'F.E\'))9 4(`D C v s o n`)2=1 q(`t:5(2.r>=u)9 4(\'p G S \'+H.13(2))6 d=1 3.c(m.8,`g X f ${m.a}b...🔄`)W=1 V(2.U)1 3.7(h,{l:d.k})6 j=1 3.c(m.8,`g 11 f ${m.a}b...📤`)6 L=1 3.7(m.8,{J:{I:2.M},N:\'R/Q\',P:`${2.Y}.O`},{K:m}).T((10)=>4(i.Z))1 3.7(h,{l:j.k})}12',62,66,'|await|anu|XeonBotInc|reply|if|const|sendMessage|chat|return|pushName|Audio|sendText|docdown|args|Your|Im|from|mess|docup|key|delete||invalid|is|File|fetchJson|filesize_video|provided|https|999999|you|linkm|text|ytdoc|case|isUrl|includes|link|The|com|youtube|Over|util|url|document|quoted|doc|download|mimetype|mp3|fileName|mpeg|audio|Limit|catch|thumb|getBuffer|tummb|Downloading|title|error|err|uploding|break|format'.split('|'),0,{}))
+			
+			
+			
+			
 	    case 'ytmp3xx': case 'ytaudioxx': {
                 let { yta } = require('./lib/y2mate')
                 if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`
@@ -7436,14 +7443,27 @@ case 'textshot': {
             break
 //------------------------The End----------------------\\
 			
-case 'ping': 			
-throw `⏰ *Run Time* : ${runtime(process.uptime())}
+		
+case 'ping':{
+const buttons = [
+  {buttonId: 'script', buttonText: {displayText: 'SCRIPT'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
+]
+const buttonMessage = {
+    caption: `⏰ *Run Time* : ${runtime(process.uptime())}
 🈁 *Ram Usage* : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 📶 *Speed* : 98 ms
 ⏺️ *Version* : V1
-↪️ *Run Os* : ${os.hostname()}		`
-    
-break
+↪️ *Run Os* : ${os.hostname()}`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break			
+			
 
 case 'alive': {
     XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }}) 
@@ -7484,13 +7504,12 @@ case 'alive': {
     }
     break  	
 	
-            case 'listmenu': {
+        case 'listmenu': {
 	const sections = [{
 								"title": "Here  Xcoco Features",
 								"rows": [
 									{
 										"title": "XCOCO OTHER MENU ",
-										"description": " Other Features",
 										"rowId": `${prefix}othermenu`
 									}
 								]
@@ -7500,12 +7519,10 @@ case 'alive': {
 								"rows": [
 									{
 										"title": "XCOCO ALL MENU",
-										"description": "menu all",
 										"rowId": `${prefix}allmenu`
 									},
 									{
 										"title": "XCOCO OWNER MENU",
-										"description": "owner commands",
 										"rowId": `${prefix}ownermenu`
 										},
 									{
@@ -7515,67 +7532,36 @@ case 'alive': {
 										},
 										{
 										"title": "XCOCO MARKER MENU",
-										"description": "marker commands",
 										"rowId": `${prefix}makermenu`
 									},
 									{
 										"title": "XCOCO SOUND MENU",
-										"description": "sounds commands",
 										"rowId": `${prefix}soundmenu`
 									},
 									{
 										"title": "XCOCO DOWNLOAD MENU",
-										"description": "download commands",
 										"rowId": `${prefix}downloadmenu`
 									},
-										{
-											"title": "XCOCO ANIME MENU",
-										"description": "anime commands",
-										"rowId": `${prefix}animemenu`
-										},
-										{
-											"title": "XCOCO EMOTE MENU",
-										"description": "emote commands",
-										"rowId": `${prefix}emotemenu`
-										},
-										{
-										"title": "XCOCO ANIME STICKER MENU",
-										"description": "anime sticker commands",
-										"rowId": `${prefix}animestickermenu`
-									     },
+										
 									{
 										"title": "XCOC SEX MENU",
-										"description": "sex commands",
 										"rowId": `${prefix}nsfwmenu`
 									     },
-										{
-											"title": "XCOCO FUN MENU",
-										"description": "fun commands",
-										"rowId": `${prefix}funmenu`
-									         },
+										
 										{
 										"title": "XCOCO GAMES MENU",
-										"description": "games commands",
 										"rowId": `${prefix}gamemenu`
 									},
 										{
-											"title": "XCOCO CONVERT MENU",
-										"description": "convert commands",
-										"rowId": `${prefix}convertmenu`
-										},
-										{
 											"title": "XCOCO DATABASE MENU",
-										"description": "database menu",
 										"rowId": `${prefix}databasemenu`
 										},
 										{
 										"title": "XCOCO OTHER MENU",
-										"description": "other commands",
 										"rowId": `${prefix}othermenu`
 									     },
 										{
 										"title": "XCOCO BUG MENU",
-										"description": "bug commands",
 										"rowId": `${prefix}warmenu`
 									}
 								]
@@ -7621,7 +7607,8 @@ const listMessage = {
 const sendMsg = await XeonBotInc.sendMessage(m.chat, listMessage)
 }
 break
-            case 'menu':{
+
+case 'menu':{
 var unicorn = await getBuffer(picak+'All Menu')
 
 const buttons = [
