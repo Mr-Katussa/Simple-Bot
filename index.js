@@ -200,8 +200,8 @@ title: `${ownername}`,
 body: `Don't forget to read group description`,
 mediaType:2,
 thumbnail: XeonWlcm,
-sourceUrl: `${websitex}`,
-mediaUrl: `${websitex}`
+sourceUrl: `https://chat.whatsapp.com/CR5yE82QFfa2PUbbQ6XxwT`,
+mediaUrl: `https://telegra.ph/file/8dc84834ff51e4056e10e.jpg`
 }}
 }
 XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
