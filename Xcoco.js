@@ -6248,7 +6248,7 @@ const reply = `
     break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 teks = `┏ ┅ ━━━━━━━━━ ┅ ➔
-┇        *⫹⫺ DONATE ⫹⫺*
+┇        *⫹⫺ UPDATE ⫹⫺*
 ┣ ┅ ━━━━━━━━━ ┅ ➔
 ┃
 ┃  ↪️ *Fᴏʟʟᴏᴡ ᴍᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs*
@@ -7708,8 +7708,8 @@ break
       case 'ownermenu':{
 	   var unicorn = await getBuffer(picak+'Owner Menu')
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'SCRIPT'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'UPDATE'}, type: 1},
+  {buttonId: 'ping', buttonText: {displayText: 'SYSTEM'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
 const buttonMessage = {
