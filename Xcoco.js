@@ -7717,12 +7717,6 @@ const buttons = [
   {buttonId: 'ping', buttonText: {displayText: 'SYSTEM'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
-let buttons = [
-{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},
-{buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1},
-{buttonId: `ping`, buttonText: {displayText: 'SYSTEM'}, type: 1}
-]
-
 const buttonMessage = {
     image: unicorn,
     caption: `┌─(🎭 *Owner Menu* 🎭)
