@@ -7606,11 +7606,6 @@ const buttons = [
   {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
-let buttons = [
-{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},
-{buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1},
-{buttonId: `ping`, buttonText: {displayText: 'SYSTEM'}, type: 1}
-]
 const buttonMessage = {
     image: unicorn,
     caption: `☰ *XCOCO COMMANDS* ☰
@@ -7713,7 +7708,7 @@ break
       case 'ownermenu':{
 	   var unicorn = await getBuffer(picak+'Owner Menu')
 const buttons = [
-  {buttonId: 'donate', buttonText: {displayText: 'UPDATE'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
   {buttonId: 'ping', buttonText: {displayText: 'SYSTEM'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
