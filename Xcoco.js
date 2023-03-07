@@ -7722,24 +7722,7 @@ let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1},
 {buttonId: `ping`, buttonText: {displayText: 'SYSTEM'}, type: 1}
 ]
-let buttonMessage = {
-image: {url: `https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg`},
-jpegThumbnail: log0,
-caption: teks,
-footer: `${botname}`,
-buttons: buttons,
-headerType: 4,
-contextInfo:{externalAdReply:{
-title:"Xcoco Super Update",
-body: "Follow Me", 
-thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
-mediaType:1,
-mediaUrl: 'https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg',
-sourceUrl: "https://chat.whatsapp.com/CR5yE82QFfa2PUbbQ6XxwT"
-}}
-}
-XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
-}
+
 const buttonMessage = {
     image: unicorn,
     caption: `┌─(🎭 *Owner Menu* 🎭)
