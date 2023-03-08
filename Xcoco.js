@@ -7450,8 +7450,7 @@ const buttons = [
   {buttonId: 'menu', buttonText: {displayText: 'MENU'}, type: 1}
 ]
 const buttonMessage = {
-    image: { url: `https://telegra.ph/file/22350cbe2467cc624c564.jpg
-` },
+    image: { url: `https://telegra.ph/file/48cdd45fddf16ce342957.jpg` },
     caption: `⏰ *Run Time* : ${runtime(process.uptime())}
 🈁 *Ram Usage* : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 📶 *Speed* : 98 ms
@@ -7602,13 +7601,13 @@ case 'menu':{
 var unicorn = await getBuffer(picak+'All Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'SCRIPT'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
 const buttonMessage = {
-    image: { url: `https://telegra.ph/file/c9a1be53e4038dd92bdb3.jpg` },
-    caption: `☰ *XCOCO COMMANDS* ☰
+    image: { url: `
+https://telegra.ph/file/71ed0b3a0589c3d653b3a.jpg` },
+    caption: `*RUNTIME* : ${runtime(process.uptime())}
     
 ┌─(🎭 *Owner Menu* 🎭)
 │➔.self
@@ -7735,7 +7734,6 @@ break
 var unicorn = await getBuffer(picak+'Group Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'SCRIPT'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
@@ -7760,9 +7758,8 @@ case 'makermenu':{
 var unicorn = await getBuffer(picak+'Maker Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'SCRIPT'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'DONATe'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -7884,7 +7881,6 @@ break
 var unicorn = await getBuffer(picak+'Download Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'SCRIPT'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
@@ -8395,7 +8391,6 @@ case 'soundmenu':{
 var unicorn = await getBuffer(picak+'Sound Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'SCRIPT'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
@@ -8423,21 +8418,21 @@ case 'gamemenu':{
 var unicorn = await getBuffer(picak+'Game Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╔═══════✪ GAME 	
-╠ ${prefix}truth
-╠ ${prefix}dare
-╠ ${prefix}tictactoe
-╠ ${prefix}delttt
-╠ ${prefix}guess [option]
-╠ ${prefix}math [mode]
-╠ ${prefix}suitpvp [tag]
-╚═════════════✪`,
+    caption: `┌─( 🎮 *Games Menu* 🎮)
+│➔.truth
+│➔.dare
+│➔.delttt
+│➔.math [ mode ]
+│➔.suitpvp [ tag ]
+│➔.tictactoe
+│➔.guess [ option ]
+│
+└─────────◉`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
@@ -8499,9 +8494,8 @@ case 'othermenu':{
 var unicorn = await getBuffer(picak+'Other Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8520,7 +8514,6 @@ case 'warmenu':{
 var unicorn = await getBuffer(picak+'War Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'SCRIPT'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
