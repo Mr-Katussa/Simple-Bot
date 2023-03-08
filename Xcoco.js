@@ -7606,8 +7606,8 @@ const buttons = [
 ]
 const buttonMessage = {
     image: { url: `
-https://telegra.ph/file/71ed0b3a0589c3d653b3a.jpg` },
-    caption: `*RUNTIME* : ${runtime(process.uptime())}
+https://telegra.ph/file/e71f5df519cc7e8a218e5.jpg` },
+    caption: `XCOCO
     
 ┌─(🎭 *Owner Menu* 🎭)
 │➔.self
