@@ -7607,7 +7607,7 @@ const buttons = [
   {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
 const buttonMessage = {
-    image: unicorn,
+    image: { url: `https://telegra.ph/file/c9a1be53e4038dd92bdb3.jpg` },
     caption: `☰ *XCOCO COMMANDS* ☰
     
 ┌─(🎭 *Owner Menu* 🎭)
@@ -7913,9 +7913,8 @@ break
 var unicorn = await getBuffer(picak+'Search Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'Donate 🍵'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner 🤣'}, type: 1}
+  {buttonId: 'ping', buttonText: {displayText: 'SYSTEM'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
