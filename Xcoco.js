@@ -7605,8 +7605,7 @@ const buttons = [
   {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
 ]
 const buttonMessage = {
-    image: { url: `
-https://telegra.ph/file/e71f5df519cc7e8a218e5.jpg` },
+    image: { url: `https://telegra.ph/file/c9a1be53e4038dd92bdb3.jpg` },
     caption: `XCOCO
     
 ┌─(🎭 *Owner Menu* 🎭)
