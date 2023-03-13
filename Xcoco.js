@@ -6265,12 +6265,12 @@ teks = `┏ ┅ ━━━━━━━━━ ┅ ➔
 
 ┗ ┅ ━━━━━━━━━ ┅ ━➔`
 let buttons = [
-{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},
-{buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1},
-{buttonId: `ping`, buttonText: {displayText: 'SYSTEM'}, type: 1}
+{buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
+{buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
+{buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 ]
 let buttonMessage = {
-image: {url: `https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg`},
+image: {url: `https://telegra.ph/file/561e9c82868cd260a9822.jpg`},
 jpegThumbnail: log0,
 caption: teks,
 footer: `${botname}`,
@@ -6282,7 +6282,7 @@ body: "Follow Me",
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
 mediaUrl: 'https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg',
-sourceUrl: "https://chat.whatsapp.com/CR5yE82QFfa2PUbbQ6XxwT"
+sourceUrl: "https://github.com/Mr-Katussa/Xcoco-MD"
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
