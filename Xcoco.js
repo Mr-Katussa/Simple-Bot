@@ -5987,7 +5987,11 @@ case 'rate': {
             break
 case 'runtime': {
             	let lowq = `*The Bot Has Been Online For:*\n*${runtime(process.uptime())}*`
-                let buttons = [{ buttonId: 'menu', buttonText: { displayText: 'Menu' }, type: 1 }]
+                let buttons = [
+		{buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
+                {buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
+		{buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
+			
                 await XeonBotInc.sendButtonText(m.chat, buttons, lowq, botname, m, {quoted: fkontak})
             	}
             break
@@ -7446,8 +7450,8 @@ case 'textshot': {
 		
 case 'ping':{
 const buttons = [
-  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1},
-  {buttonId: 'menu', buttonText: {displayText: 'MENU'}, type: 1}
+  {buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
+  {buttonId: 'donate', buttonText: {displayText: '💸 ᴅᴏɴᴀᴛᴇ 💸'}, type: 1}
 ]
 const buttonMessage = {
     image: { url: `https://telegra.ph/file/48cdd45fddf16ce342957.jpg` },
@@ -7468,9 +7472,9 @@ break
 case 'alive': {
     XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }}) 
     let buttons = [    
-    {buttonId: ` ping `, buttonText: {displayText: 'PING'}, type: 1},
-    {buttonId: ` sc `, buttonText: {displayText: 'SCRIPT'}, type: 1},
-    {buttonId: ` listmenu `, buttonText: {displayText: 'LIST MENU'}, type: 1}
+     {buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
+     {buttonId: 'donate', buttonText: {displayText: '💸 ᴅᴏɴᴀᴛᴇ 💸'}, type: 1},
+     {buttonId: 'owner', buttonText: {displayText: 'owner'}, type: 1},
     ]
     let buttonMessage = {
     image: { url: `https://telegra.ph/file/1f83eda5030744038c944.jpg` },
