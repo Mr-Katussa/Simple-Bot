@@ -5992,6 +5992,21 @@ case 'runtime': {
                 {buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
 		{buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 		]
+		const buttonMessage = {
+                image: {url: `https://telegra.ph/file/561e9c82868cd260a9822.jpg`},
+                jpegThumbnail: log0,
+                caption: teks,
+                buttons: buttons,
+                headerType: 4,
+                contextInfo:{externalAdReply:{
+                title:"Xcoco Super Update",
+                body: "Follow Me", 
+                thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
+                mediaType:1,
+                mediaUrl: 'https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg',
+                sourceUrl: "https://github.com/Mr-Katussa/Xcoco-MD"
+                }}
+                }	
                 await XeonBotInc.sendButtonText(m.chat, buttons, lowq, botname, m, {quoted: fkontak})
             	}
             break
