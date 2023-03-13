@@ -5991,7 +5991,7 @@ case 'runtime': {
 		{buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
                 {buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
 		{buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
-			
+		]
                 await XeonBotInc.sendButtonText(m.chat, buttons, lowq, botname, m, {quoted: fkontak})
             	}
             break
