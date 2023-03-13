@@ -5991,22 +5991,7 @@ case 'runtime': {
 		{buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
                 {buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
 		{buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
-		]
-		const buttonMessage = {
-                image: {url: `https://telegra.ph/file/561e9c82868cd260a9822.jpg`},
-                jpegThumbnail: log0,
-                caption: teks,
-                buttons: buttons,
-                headerType: 4,
-                contextInfo:{externalAdReply:{
-                title:"Xcoco Super Update",
-                body: "Follow Me", 
-                thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
-                mediaType:1,
-                mediaUrl: 'https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg',
-                sourceUrl: "https://github.com/Mr-Katussa/Xcoco-MD"
-                }}
-                }	
+		]	
                 await XeonBotInc.sendButtonText(m.chat, buttons, lowq, botname, m, {quoted: fkontak})
             	}
             break
@@ -7489,7 +7474,7 @@ case 'alive': {
     let buttons = [    
      {buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
      {buttonId: 'donate', buttonText: {displayText: '💸 ᴅᴏɴᴀᴛᴇ 💸'}, type: 1},
-     {buttonId: 'owner', buttonText: {displayText: 'owner'}, type: 1},
+     {buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
     ]
     let buttonMessage = {
     image: { url: `https://telegra.ph/file/1f83eda5030744038c944.jpg` },
@@ -7620,8 +7605,9 @@ case 'menu':{
 var unicorn = await getBuffer(picak+'All Menu')
 
 const buttons = [
-  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
+  {buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
+  {buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
+  {buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 ]
 const buttonMessage = {
     image: { url: `https://telegra.ph/file/c9a1be53e4038dd92bdb3.jpg` },
@@ -7725,9 +7711,9 @@ break
       case 'ownermenu':{
 	   var unicorn = await getBuffer(picak+'Owner Menu')
 const buttons = [
-  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
-  {buttonId: 'ping', buttonText: {displayText: 'SYSTEM'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
+  {buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
+  {buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
+  {buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -7752,8 +7738,9 @@ break
 var unicorn = await getBuffer(picak+'Group Menu')
 
 const buttons = [
-  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
+  {buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
+  {buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
+  {buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -7899,8 +7886,9 @@ break
 var unicorn = await getBuffer(picak+'Download Menu')
 
 const buttons = [
-  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
+  {buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
+  {buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
+  {buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8291,9 +8279,9 @@ case 'nsfwmenu':{
 var unicorn = await getBuffer(picak+'Nsfw Menu')
 
 const buttons = [
-  {buttonId: 'script', buttonText: {displayText: 'SCRIPT'}, type: 1},
-  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
+  {buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
+  {buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
+  {buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8409,8 +8397,9 @@ case 'soundmenu':{
 var unicorn = await getBuffer(picak+'Sound Menu')
 
 const buttons = [
-  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
+  {buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
+  {buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
+  {buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8436,8 +8425,9 @@ case 'gamemenu':{
 var unicorn = await getBuffer(picak+'Game Menu')
 
 const buttons = [
-  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
+  {buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
+  {buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
+  {buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
@@ -8512,14 +8502,16 @@ case 'othermenu':{
 var unicorn = await getBuffer(picak+'Other Menu')
 
 const buttons = [
-  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
+  {buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
+  {buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
+  {buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
     caption: `
 ┌─(♻️ *Other* ♻️)
 │.alive
+ .runtime
 └─────────◉`,
     footer: `${botname}`,
     buttons: buttons,
@@ -8532,11 +8524,11 @@ case 'warmenu':{
 var unicorn = await getBuffer(picak+'War Menu')
 
 const buttons = [
-  {buttonId: 'donate', buttonText: {displayText: 'DONATE'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'OWNER'}, type: 1}
+  {buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
+  {buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
+  {buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 ]
 const buttonMessage = {
-    image: unicorn,
     caption: `*ONLY XCOCO OWNER*`,
     footer: `${botname}`,
     buttons: buttons,
