@@ -1,8 +1,8 @@
 {
-  "name": "Xcoco",
+  "name": "Xcoco Md",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/Sandaru",
-  "logo": "https://telegra.ph/file/3b403e1d0943bceda8133.jpg&name=900x900",
+  "repository": "https://github.com/ALPHAkaveen/v8-bot-yakuza",
+  "logo": "https://telegra.ph/file/0483c62466ab6d2228aa8.jpg&name=900x900",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {
