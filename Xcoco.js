@@ -7472,7 +7472,46 @@ const buttonMessage = {
 const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break			
-			
+
+case 'tqtt': {
+teks = `┏ ┅ ━━━━━━━━━ ┅ ➔
+
+┇ 《 *SPECIAL THANKS* 》
+
+┣ ┅ ━━━━━━━━━ ┅ ➔
+┃  
+┃ SANDRU NETHSARA 
+ 
+┃ NIMESH OFICIAL [ Gay Boy ]
+
+┃ MY BESTY
+┃
+┃ 
+┗ ┅ ━━━━━━━━━ ┅ ➔`
+let buttons = [
+{buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
+{buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
+{buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
+]
+let buttonMessage = {
+image: {url: `https://telegra.ph/file/0978934aacfa812310c6a.jpg`},
+jpegThumbnail: log0,
+caption: teks,
+footer: `${botname}`,
+buttons: buttons,
+headerType: 4,
+contextInfo:{externalAdReply:{
+title:"Xcoco Super Update",
+body: "Follow Me", 
+thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
+mediaType:1,
+mediaUrl: 'https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg',
+sourceUrl: "https://github.com/Mr-Katussa/Xcoco-MD"
+}}
+}
+XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+}  
+break
 
 case 'alive': {
 teks = `┏ ┅ ━━━━━━━━━ ┅ ➔
