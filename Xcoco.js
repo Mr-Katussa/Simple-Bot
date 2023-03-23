@@ -6255,7 +6255,7 @@ const reply = `
     return m.reply (`*${q}* isn't a valid text`)
     }
     break
-case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
+case 'donate': {
 teks = `┏ ┅ ━━━━━━━━━ ┅ ➔
 ┇        *⫹⫺ DONATE ⫹⫺*
 ┣ ┅ ━━━━━━━━━ ┅ ➔
@@ -7474,20 +7474,20 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 break			
 
 case 'tqtt': {
-teks = `┏ ┅ ━━━━━━━━━ ┅ ➔
+teks = `❚▬❚▬❚▬❚▬❚▬❚▬❚▬❚▬❚▬❚
 
 ┇ 《 *SPECIAL THANKS* 》
-
-┣ ┅ ━━━━━━━━━ ┅ ➔
-┃  
-┃ SANDRU NETHSARA 
- 
-┃ NIMESH OFICIAL [ Gay Boy ]
-
-┃ MY BESTY
-┃
 ┃ 
-┗ ┅ ━━━━━━━━━ ┅ ➔`
+┃ 
+┃  
+┃ *SANDRU NETHSARA*
+┃  
+┃ *NIMESH OFICIAL* [ Gay Boy ]
+┃ 
+┃  *MY BESTY*
+┃ 
+┃ 
+┗ ❚▬❚▬❚▬❚▬❚▬❚▬❚▬❚▬❚▬❚`
 let buttons = [
 {buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
 {buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
@@ -7511,6 +7511,38 @@ sourceUrl: "https://github.com/Mr-Katussa/Xcoco-MD"
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
 }  
+break
+			
+case 'sc': {
+teks = `❚▬❚▬❚▬❚▬❚▬❚▬❚▬❚▬❚▬❚
+
+┇ 《 *SOURCE CODE* 》
+┃ 
+┣ Contact Owner : *wa.me/94764497078*
+┃ 
+┗❚▬❚▬❚▬❚▬❚▬❚▬❚▬❚▬❚▬❚`
+let buttons = [
+{buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
+{buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
+]
+let buttonMessage = {
+image: {url: `https://telegra.ph/file/959f07f5c247ce9c86958.jpg`},
+jpegThumbnail: log0,
+caption: teks,
+footer: `${botname}`,
+buttons: buttons,
+headerType: 4,
+contextInfo:{externalAdReply:{
+title:"Xcoco Super Update",
+body: "ᴡᴀɴᴛ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ?", 
+thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
+mediaType:1,
+mediaUrl: 'https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg',
+sourceUrl: "https://github.com/Mr-Katussa/Xcoco-MD"
+}}
+}
+XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+} 
 break
 
 case 'alive': {
