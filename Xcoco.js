@@ -2958,7 +2958,7 @@ if (!text) return m.reply( `Example : ${prefix + command} link`)
 if (!q.includes('tiktok')) return m.reply(`Link Invalid!!`)
 m.reply(mess.wait)
 require('./lib/tiktok').Tiktok(q).then( data => {
-    var button = [{ buttonId: `tiktokaudio ${q}`, buttonText: { displayText: `AUDIO‡` }, type: 1 }, { buttonId: `menu`, buttonText: { displayText: `Menu` }, type: 1 }]
+    var button = [{ buttonId: `tiktokaudio ${q}`, buttonText: { displayText: `AUDIO` }, type: 1 }, { buttonId: `menu`, buttonText: { displayText: `MENU` }, type: 1 }]
 XeonBotInc.sendMessage(m.chat, { caption: `Here you go!`, video: { url: data.watermark }, buttons: button, footer: botname, mentions: [sender] })
 })
 }
@@ -7654,20 +7654,20 @@ XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
 									     },
 										
 										{
-										"title": "XCOCO GAMES MENU",
-										"rowId": `${prefix}gamemenu`
+										"title": "DONATE",
+										"rowId": `${prefix}donate`
 									},
 										{
-											"title": "XCOCO DATABASE MENU",
-										"rowId": `${prefix}databasemenu`
+											"title": "SCRIPT OF BOT",
+										"rowId": `${prefix}sc`
 										},
 										{
-										"title": "XCOCO OTHER MENU",
-										"rowId": `${prefix}othermenu`
+										"title": "RUNTIME BOT",
+										"rowId": `${prefix}runtime`
 									     },
 										{
-										"title": "XCOCO BUG MENU",
-										"rowId": `${prefix}warmenu`
+										"title": "SPEED BOT",
+										"rowId": `${prefix}ping`
 									}
 								]
 							},
