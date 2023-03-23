@@ -1878,7 +1878,7 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
             })
             }
         break    
-        case 'song':{
+        case 'play':{
         if (!text) return m.reply(`Example : ${prefix + command} stay jb`)
             let ytslagu = require("youtube-yts")
             let lagusearch = await ytslagu(text)
@@ -1910,8 +1910,8 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
             }
             break
         
-    case 'play': {
-                if (!text) throw `Example : ${prefix + command} anime whatsapp status`
+    case 'song': {
+                if (!text) throw `Example : ${prefix + command} lelena`
                 let yts = require("youtube-yts")
                 let search = await yts(text)
                 let anulay = search.videos[0]
@@ -1987,7 +1987,7 @@ if (args.length < 1 || !isUrl(text) || !xeonaudp3.isYTUrl(text)) throw `Where's 
 const audio=await xeonaudp3.mp3(text)
 await XeonBotInc.sendMessage(m.chat,{
     audio: fs.readFileSync(audio.path),
-    mimetype: 'audio/mp4', ptt: true,
+    mimetype: 'audio/mp4', ptt: false,
     contextInfo:{
         externalAdReply:{
             title:audio.meta.title,
