@@ -7503,7 +7503,7 @@ let buttons = [
 {buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 ]
 let buttonMessage = {
-image: {url: `https://telegra.ph/file/561e9c82868cd260a9822.jpg`},
+image: {url: `https://telegra.ph/file/071accb62c6bc7d4ee01c.jpg`},
 jpegThumbnail: log0,
 caption: teks,
 footer: `${botname}`,
