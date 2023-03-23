@@ -1918,7 +1918,6 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
                 let buttons = [
                     {buttonId: `playmp3 ${anulay.url}`, buttonText: {displayText: 'AUDIO'}, type: 1},
                     {buttonId: `playmp4 ${anulay.url}`, buttonText: {displayText: 'VIDEO'}, type: 1},
-		    {buttonId: `ytdoc ${anulay.url}`, buttonText: {displayText: 'DOCUMENT'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anulay.thumbnail },
@@ -1945,7 +1944,7 @@ const pl= await xeonplaymp3.mp3(anup3k.url)
 await XeonBotInc.sendMessage(m.chat,{
     audio: fs.readFileSync(pl.path),
     fileName: anup3k.title + '.mp3',
-    mimetype: 'audio/mp4', ptt: true,
+    mimetype: 'audio/mp4', ptt: false,
     contextInfo:{
         externalAdReply:{
             title:anup3k.title,
@@ -7477,7 +7476,7 @@ case 'alive': {
      {buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
     ]
     let buttonMessage = {
-    image: { url: `https://telegra.ph/file/1f83eda5030744038c944.jpg` },
+    image: { url: `https://telegra.ph/file/071accb62c6bc7d4ee01c.jpg` },
     caption: `┏ ┅ ━━━━━━━━━ ┅ ➔
 
 ┇ 《 *xᴄᴏᴄᴏ sᴜᴘᴇʀ ᴜᴘᴅᴀᴛᴇ* 》
@@ -7610,7 +7609,7 @@ const buttons = [
   {buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 ]
 const buttonMessage = {
-    image: { url: `https://telegra.ph/file/c9a1be53e4038dd92bdb3.jpg` },
+    image: { url: `https://telegra.ph/file/071accb62c6bc7d4ee01c.jpg` },
     caption: `XCOCO
     
 ┌─(🎭 *Owner Menu* 🎭)
@@ -7716,7 +7715,7 @@ const buttons = [
   {buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 ]
 const buttonMessage = {
-    image: unicorn,
+    image: { url: `https://telegra.ph/file/071accb62c6bc7d4ee01c.jpg` },
     caption: `┌─(🎭 *Owner Menu* 🎭)
 │➔.self
 │➔.public
@@ -7743,7 +7742,7 @@ const buttons = [
   {buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 ]
 const buttonMessage = {
-    image: unicorn,
+    image: { url: `https://telegra.ph/file/071accb62c6bc7d4ee01c.jpg` },
     caption: `*GROUP COMMANDS*`,
     footer: `┌─(💠 *Group Menu* 💠 )
 │➔.grouplink
@@ -8402,7 +8401,7 @@ const buttons = [
   {buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 ]
 const buttonMessage = {
-    image: unicorn,
+    image: { url: `https://telegra.ph/file/071accb62c6bc7d4ee01c.jpg` },
     caption: `*SOUND MENU*`,
     footer: `┌─( 🎧 *Sound Menu* 🎧)
 │➔.sound1
@@ -8430,7 +8429,7 @@ const buttons = [
   {buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 ]
 const buttonMessage = {
-    image: unicorn,
+    image: { url: `https://telegra.ph/file/071accb62c6bc7d4ee01c.jpg` },
     caption: `┌─( 🎮 *Games Menu* 🎮)
 │➔.truth
 │➔.dare
@@ -8507,7 +8506,7 @@ const buttons = [
   {buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
 ]
 const buttonMessage = {
-    image: unicorn,
+    image: { url: `https://telegra.ph/file/071accb62c6bc7d4ee01c.jpg` },
     caption: `
 ┌─(♻️ *Other* ♻️)
 │.alive
