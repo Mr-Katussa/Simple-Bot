@@ -1928,7 +1928,7 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
 
 ❏ ⌚ *DURATION*: ${anulay.durationH}
 
-❏ 👀 8VIEWS*: ${anulay.viewH}
+❏ 👀 *VIEWS*: ${anulay.viewH}
 
 ❏ 🎭 *Upload At* : ${anulay.ago}
 
@@ -6000,7 +6000,7 @@ case 'runtime': {
                 await XeonBotInc.sendButtonText(m.chat, buttons, lowq, botname, m, {quoted: fkontak})
             	}
             break
-case 'Hi': {
+case 'hi': {
             	let lowq = `*Hey Bro How Are You* 😋`
                 let buttons = [
 		{buttonId: `vcaa`, buttonText: {displayText: 'Hey Bot'}, type: 1}
