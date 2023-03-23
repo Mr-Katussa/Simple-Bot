@@ -1916,8 +1916,8 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
                 let search = await yts(text)
                 let anulay = search.videos[0]
                 let buttons = [
-                    {buttonId: `playmp3 ${anulay.url}`, buttonText: {displayText: 'AUDIO'}, type: 1},
-                    {buttonId: `playmp4 ${anulay.url}`, buttonText: {displayText: 'VIDEO'}, type: 1},
+                    {buttonId: `playmp3 ${anulay.url}`, buttonText: {displayText: '🎶Audio🎶'}, type: 1},
+                    {buttonId: `playmp4 ${anulay.url}`, buttonText: {displayText: '📽️Video📽️'}, type: 1},
                 ]
                 let buttonMessage = {
                     image: { url: anulay.thumbnail },
@@ -6257,7 +6257,7 @@ const reply = `
     break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 teks = `┏ ┅ ━━━━━━━━━ ┅ ➔
-┇        *⫹⫺ UPDATE ⫹⫺*
+┇        *⫹⫺ DONATE ⫹⫺*
 ┣ ┅ ━━━━━━━━━ ┅ ➔
 ┃
 ┃  ↪️ *Fᴏʟʟᴏᴡ ᴍᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs*
@@ -7475,15 +7475,7 @@ break
 			
 
 case 'alive': {
-    XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }}) 
-    let buttons = [    
-     {buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
-     {buttonId: 'donate', buttonText: {displayText: '💸 ᴅᴏɴᴀᴛᴇ 💸'}, type: 1},
-     {buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
-    ]
-    let buttonMessage = {
-    image: { url: `https://telegra.ph/file/071accb62c6bc7d4ee01c.jpg` },
-    caption: `┏ ┅ ━━━━━━━━━ ┅ ➔
+teks = `┏ ┅ ━━━━━━━━━ ┅ ➔
 
 ┇ 《 *xᴄᴏᴄᴏ sᴜᴘᴇʀ ᴜᴘᴅᴀᴛᴇ* 》
 
@@ -7504,13 +7496,30 @@ case 'alive': {
 ┃ 🧿 *Owner* : Sandaru Nethsara 
 ┃
 ┃ 🪀 *Powered By*  +15517868003
-┗ ┅ ━━━━━━━━━ ┅ ➔`,
-    footer: `ᴘʟᴇᴀꜱᴇ ꜱᴇʟꜱᴄᴛ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ`,
-    buttons: buttons,
-    headerType: 4,
-    }
-    XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
-    }
+┗ ┅ ━━━━━━━━━ ┅ ➔`
+let buttons = [
+{buttonId: `menu`, buttonText: {displayText: '📝 ᴍᴇɴᴜ 📝'}, type: 1},
+{buttonId: `owner`, buttonText: {displayText: '🔐 ᴏᴡɴᴇʀ 🔐'}, type: 1},
+{buttonId: `ping`, buttonText: {displayText: '⚙️ sʏsᴛᴇᴍ sᴛᴜᴀᴛᴇ ⚙️'}, type: 1}
+]
+let buttonMessage = {
+image: {url: `https://telegra.ph/file/561e9c82868cd260a9822.jpg`},
+jpegThumbnail: log0,
+caption: teks,
+footer: `${botname}`,
+buttons: buttons,
+headerType: 4,
+contextInfo:{externalAdReply:{
+title:"Xcoco Super Update",
+body: "Follow Me", 
+thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
+mediaType:1,
+mediaUrl: 'https://telegra.ph/file/38fbc93ba1855b6e65cee.jpg',
+sourceUrl: "https://github.com/Mr-Katussa/Xcoco-MD"
+}}
+}
+XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+}
     break  	
 	
         case 'listmenu': {
