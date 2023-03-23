@@ -1922,11 +1922,17 @@ if (!text) return m.reply(`Example : ${prefix + command} Stay jb`)
                 let buttonMessage = {
                     image: { url: anulay.thumbnail },
                     caption: `◉—⌈🔊 *YOUTUBE PLAY* 🔊⌋—◉\n
-❏ 📌 TITLE: ${anulay.title}
-❏ 📆 PUBLISHED: ${anulay.publishedTime}
-❏ ⌚ DURATION: ${anulay.durationH}
-❏ 👀 VIEWS: ${anulay.viewH}
-❏ 📇 DESCRIPTION: ${anulay.description}`,
+❏ 📌 *TITLE*: ${anulay.title}
+
+❏ 📆 *PUBLISHED*: ${anulay.publishedTime}
+
+❏ ⌚ *DURATION*: ${anulay.durationH}
+
+❏ 👀 8VIEWS*: ${anulay.viewH}
+
+❏ 🎭 *Upload At* : ${anulay.ago}
+
+❏ 📇 *DESCRIPTION* : ${anulay.description}`,
                     footer: botname,
                     buttons: buttons,
                     headerType: 4
@@ -3634,7 +3640,7 @@ case 'req': case 'request': {
                let me = m.sender
                let pjtxt = `Message From : @${me.split('@')[0]} \nFor : @${ownernya.split('@')[0]}\n\n${command} ${text}`
                let ments = [ownernya, me]
-               let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: '🙏THANKS' }, type: 1 }]
+               let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: 'OK' }, type: 1 }]
             await XeonBotInc.sendButtonText(ownernya, buttons, pjtxt, botname, m, {mentions: ments, quoted: fdoc})
             let akhji = `*Request has been sent*\n*To Owner @${ownernya.split('@')[0]}*\n_Thank you🙏_`
             await XeonBotInc.sendButtonText(m.chat, buttons, akhji, botname, m, {mentions: ments, quoted: fkontak})
@@ -3646,7 +3652,7 @@ case 'report': case 'bug': {
                let me = m.sender
                let pjtxt = `Message From : @${me.split('@')[0]} \nFor : @${ownernya.split('@')[0]}\n\n${text}`
                let ments = [ownernya, me]
-               let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: '🙏THANKS FOR THE REPORT' }, type: 1 }]
+               let buttons = [{ buttonId: 'hehehe', buttonText: { displayText: 'OK' }, type: 1 }]
             await XeonBotInc.sendButtonText(ownernya, buttons, pjtxt, botname, m, {mentions: ments})
             let akhji = `Report Sent\nTo Owner @${ownernya.split('@')[0]}\n*Thank you for the report🙏*\n_Your number will be blocked_\n_If the Report is Only Created_`
             await XeonBotInc.sendButtonText(m.chat, buttons, akhji, botname, m, {mentions: ments})
@@ -7583,8 +7589,9 @@ const listMessage = {
   text: "*⫹⫺  xᴄᴏᴄᴏ ʟɪꜱᴛ ᴍᴇɴᴜ ⫹⫺*",
   footer: `
 
-┇ ┅ ━━━━━━━━━ ┅
-┃ BOT : XCOCO-MD
+┇ ┅ ━━━━━━━━━➔
+┃ 
+┃ RUN TIME : ${runtime(process.uptime())}
 ┣  
 ┃ OWNER : +15517868003
 ┃
