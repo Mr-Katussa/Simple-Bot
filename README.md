@@ -1,10 +1,11 @@
+# SIMPLE BOT BY SANDARU
 
 # Setup For Deployment 👇
 
-- FORK THE REPOSITORY [Here](https://github.com/Mr-Katussa/Xcoco-MD/fork)
+- FORK THE REPOSITORY [Here](https://github.com/Mr-Katussa/Simple-Bot/fork)
 
 ## `⨷ SCAN QR`
-[![Xcoco Md](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@Mr-Katussa/XCOCO-QR)
+[![Xcoco Md](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@sandaru07/MD-QR)
 
  ` BUILDPACKS`
 
@@ -19,5 +20,12 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 
 [![Deploy on Mogenius](https://telegra.ph/file/946d83b461457a3c1598c.png)](https://studio.mogenius.com/studio/cloud-space/cloud-space-overview)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mr-Katussa/Xcoco-MD/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mr-Katussa/Xcocoyh/)
+
+
+<h1 align="center">Owner</h1>
+
+<a href="wa.me/94764497078"><img src="https://github.com/Mr-Katussa.png" width="200" height="200" alt="ImYanXiao"/></a>
+
+
 
