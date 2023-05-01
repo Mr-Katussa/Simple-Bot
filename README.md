@@ -30,10 +30,5 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mr-Katussa/Xcocoyh/)
 
 
-<h1 align="center">OWNER</h1>
-<p align="center">
-<a href="https://github.com/Mr-Katussa"><img src="https://github.com/Mr-Katussa.png" width="300" height="300" alt="xIKRATOSx"/></a>
-</p>
-
 
 
