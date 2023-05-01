@@ -1,4 +1,11 @@
-# SIMPLE BOT BY SANDARU
+
+
+### a little about this bot
+- ✔️ | **Simple** 
+- ✔️ | **No Button** 
+- ✔️ | **Multi Device** 
+- ✔️ | **Auto Songs And Video Download** 
+---------
 
 # Setup For Deployment 👇
 
